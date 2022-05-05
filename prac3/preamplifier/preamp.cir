@@ -1,0 +1,57 @@
+* Preamplifier File
+
+.include models.cir
+
+* Voltage Sources
+*Vin		in		0		0		sin(0 1m 1k)
+Vin		in		0		AC		1m	
+V1		VCC		0		20
+V2		VEE		0		-20
+
+* Measure Current
+Vmeas	in		c1		0
+
+* Transistor
+Q1 		q8c		q8b		q8e		t2N2219A
+
+* Resistors
+Rpc		VCC		q8c		10K
+Rpe		q8e		VEE		264.0886
+Rp1		VCC		q8b		83785.8959
+Rp2		q8b		VEE		2726.834
+RL		out		0		494k
+
+* Capacitors
+Cin		c1		q8b		10u
+Cout	q8c		out		10u
+
+*.TRAN 	1u 		5m
+
+.control
+
+	let fcentre = 5k
+	let fstart = 1
+	let fstop = 10MEG
+	
+	AC 		DEC 	1000 	$&fstart 	$&fstop
+	let vx=mag(v(out)/v(in))
+	*let iin=mag(i(Vmeas))
+	
+	meas ac vi_magn find ac1.v(in) AT='fcentre'
+	meas ac vo_magn find ac1.v(out) AT='fcentre'
+	
+	meas ac i_in find ac1.i(vmeas) AT='fcentre'
+	
+	let Av = (vo_magn/(vi_magn))
+	echo Midband voltage gain Av = "$&Av" V/V
+	echo Midband Current In = "$&i_in" A 
+	
+	let total=ac1.vx
+	plot db(total)
+	*plot mag(i(Vmeas))
+
+ *run
+ *plot v(in), v(out)
+ 
+.endc
+.end

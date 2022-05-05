@@ -1,0 +1,39 @@
+Practical 2 - Question a
+
+Vs  1   0   0   ac  1   0
+Rs 	1 	2 	1.2K
+
+Vcc	cc	0	12
+Vm	c	qc	0
+
+Cs	2	qb	493.09n
+Cc	c	out	265.26n
+Ce	qe	0	7.1862u
+
+R1 	cc	qb	122.25k
+R2 	qb 	0 	157.98k
+Re  qe 	0	4594
+Rc 	cc	c	3.3k
+RL 	out 0 	4.7k
+
+Q1   qc   qb  qe   2N2222
+
+.MODEL 2N2222  NPN (IS=2.20f NF=1.00 BF=240 VAF=114
++ IKF=0.293 ISE=2.73p NE=2.00 BR=4.00 NR=1.00
++ VAR=24.0 IKR=0.600 RE=0.194 RB=0.777 RC=77.7m
++ XTB=1.5 CJE=24.9p VJE=1.10 MJE=0.500 CJC=12.4p VJC=0.300
++ MJC=0.300 TF=371p TR=64.0n EG=1.12)
+
+
+.op
+.control
+
+	run
+	let Vceq = v(qc)-v(qe)
+	let Icq = i(Vm)
+	echo Q-point:
+	echo Vce = "$&Vceq" V
+	echo Icq = "$&Icq" A
+ 
+.endc
+.end

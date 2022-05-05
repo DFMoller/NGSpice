@@ -1,0 +1,68 @@
+* Testing Poweramp
+
+
+* Voltage Sources
+Vin		in		0		AC		17
+V1		VCC		0		20
+V2		VEE		0		-20
+
+
+* Transistors
+Q1		VCC    	q5c 	qnb   	t2N2219A
+Q2  	VCC    	qnb     qne   	TIP41C
+Q3  	VEE    	q7e 	qpb   	t2N2905A
+Q4  	VEE    	qpb     qpe   	TIP42C
+Q5		q5c		q5b		q5e		t2N2905A
+Q6		q7e		q6b		q5c		t2N2905A
+Q7		VEE		q7b		q7e		t2N2905A
+
+* Current Measuring Voltage Sources
+Vicn 	qne    	noden     DC    0
+Vicp 	nodep  	qpe       DC    0
+
+* Small Emitter Resistors
+Ren  	noden  	pwrout    	0.01
+Rep  	pwrout	nodep   	0.01
+
+* VBE Multiplier Resistors
+R1		q5c		q6b		2670
+R2		q6b		q7e		300
+
+* Current Source Bias Resistors
+Re 		VCC		q5e		470
+R3		VCC		q5b		5170
+R4		q5b		0		52600
+
+* Sink Transistor Bias Resistors
+R7A		VCC		q7b		1000k
+R7B		q7b		VEE		680k
+
+* Coupling Capacitors
+Cmid	in		q7b		10u
+Cout 	pwrout	out    	4700u
+
+* Noise Capacitors
+Cc		VCC		0		100u
+Ce		VEE		0		100u
+
+* Load Resistor
+RL		out		0		8
+
+
+.control
+
+	let fcentre = 5k
+	let fstart = 1
+	let fstop = 10MEG
+	
+	AC 		DEC 	1000 	$&fstart 	$&fstop
+	let vx=mag(v(out)/v(in))
+	
+	let total=ac1.vx
+	
+	plot db(total)
+
+
+
+.endc
+.end

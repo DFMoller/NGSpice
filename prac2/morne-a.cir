@@ -1,0 +1,33 @@
+Morne - a
+
+*Voltages
+vi in 0 0 ac 1 0
+Vcc vcc 0 12
+vmeas 2 qc 0
+*Resistance
+Rsi in 1 1.2k
+R1 vcc qb 122k
+R2 qb 0 158k
+RE qe 0 4594
+RC vcc 2 3.3k
+RL out 0 4.7k
+*Capacitance
+CS 1 qb 493n
+CC 2 out 265n
+CE qe 0 7.23u
+*Transistor
+Q1 qc qb qe 2N2222
+.model 2N2222 NPN (IS=2.20f NF=1.00 BF=240 VAF=114
++ IKF=0.293 ISE=2.73p NE=2.00 BR=4.00 NR=1.00
++ VAR=24.0 IKR=0.600 RE=0.194 RB=0.777 RC=77.7m
++ XTB=1.5 CJE=24.9p VJE=1.10 MJE=0.500 CJC=12.4p VJC=0.300
++ MJC=0.300 TF=371p TR=64.0n EG=1.12
+.op
+.control
+run
+let Vce = v(qc)-v(qe)
+let Icq = i(vmeas)
+echo Q point Vce = "$&Vce" V
+echo Q point Icq = "$&Icq" A
+.endc
+.end

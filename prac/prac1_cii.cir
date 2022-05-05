@@ -1,0 +1,34 @@
+Practical 1 - Question cii
+
+Vs 	in 	0	0 	sin(0 1.2 10k)
+Rs 	in 	x 	50
+
+Vcc vcc 0 	12
+
+C1 	x	qb	100nF
+C2	qc	out	470uF
+
+R1 	vcc	qb	36.9231K
+R2 	qb 	0 	201.2903K
+Re 	vcc qe 	1.6K
+Rc 	qc 	0 	8.2K
+RL 	out 0 	33K
+
+*       Collector   Base     Emitter   Model
+Q1      qc          qb        qe         QN2905
+
+.MODEL QN2905 PNP (IS=3.81E-13 NF=1.0 BF=260  VAF=114 
++ IKF=3.6E-01 ISE=5.85E-11 NE=2.0 BR=4  NR=1.0 VAR=20 
++ XTB=1.5 RE=1.2E+00 RB=4.8E+00 RC=4.8E-01
++ CJE=4.6E-11 CJC=1.9E-11 TF=7.9E-10 TR=2.1E-08)
+*  40 Volt  0.60 Amp  200 MHz  SiPNP  Transistor  08-06-1990
+
+.TRAN 1u 1m
+
+.control
+
+ run
+ plot v(in), v(out), v(qc)
+ 
+.endc
+.end

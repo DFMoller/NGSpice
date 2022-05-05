@@ -1,0 +1,22 @@
+* Electronics 315 - W01L2
+* BJT CE gain
+* Author: CJ Fourie
+* Last mod: 9 February 2022
+**************************************
+
+Vs      In     VBB        0     sin    0     0.25    10k
+
+VCC     VCC    0        12
+VBB     VBB    0        1.2
+
+RB      in     qb       50k
+RC      VCC    out      6k
+
+*       Collector   Base     Emitter   Model
+Q1      out          qb       0         BJT1
+
+.model BJT1 NPN (BF=100 VAF=1000 IS=1e-15)
+
+.tran 1u 1m 0 1u
+
+.end

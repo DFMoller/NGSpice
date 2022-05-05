@@ -1,0 +1,42 @@
+* Electronics 315 - W01L3
+* BJT CE with RE gain
+* Author: CJ Fourie
+* Last mod: 9 February 2022
+**************************************
+
+Vs      In     0        0     AC    1     0
+
+VCC     VCC    0        10
+
+RS      in     1        0.5k
+R1      VCC    qb       56k
+R2      qb     0        12.2k
+RC      VCC    out      2k
+RE      qe     0        0.4k
+
+CC      1      qb       100m  $ arbitrary large value
+
+*       Collector   Base     Emitter   Model
+Q1      out         qb       qe        BJT1
+
+.model BJT1 NPN (BF=100 IS=1e-15)
+
+.control
+  AC    DEC    1   10k   10k          $  Do ac analysis at single frequency
+  altermod @bjt1[bf]=50               $  Change transistor Beta to 50
+  AC    DEC    1   10k   10k          $  Do ac analysis at single frequency
+  altermod @bjt1[bf]=150              $  Change transistor Beta to 150
+  AC    DEC    1   10k   10k          $  Do ac analysis at single frequency
+
+  meas ac av100 max ac1.v(out) AT=10k $ Gain when Beta = 100
+  meas ac av50  max ac2.v(out) AT=10k $ Gain when Beta = 50
+  meas ac av150 max ac3.v(out) AT=10k $ Gain when Beta = 150
+
+  let dav = (av150-av50)/av100        $ Delta_Av
+  let dbeta = (150-50)/100            $ Delta_Beta
+  let sensav = dav/dbeta*100          $ Sensitivity (change in Av over change in Beta) in %
+  echo
+  echo Av sensitivity to beta = "$&sensav" %
+  echo 
+.endc
+.end

@@ -1,0 +1,92 @@
+* SPICE model for power amplifier
+*-------------------------------------------------------------
+* Author: Your Name
+* SU student number : 12345679
+* Last mod: 21 April 2021
+*=============================================================
+* Description: This Class-A is used to show (non-)compliance
+* specifications and tests for Electronics 315 practical 3
+*=============================================================
+
+* YOUR CIRCUIT MUST INCLUDE:
+* 1. A voltage source (DC 0) in series with the emitter of Qn, named Vicn, to measure I_{CQn}.
+*    Its POSITIVE node must be connected to the emitter of Qn, and named "qne"
+*      Example:  Vicn qne nodewhatever  DC  0
+* 2. A voltage source (DC 0) in series with the emitter of Qp, named Vicp, to measure I_{CQp}.
+*    Its NEGATIVE node must be connected to the emitter of Qp, and named "qpe"
+*      Example:  Vicp nodewhateverelse  qpe  DC  0
+
+* Include the transistor models as an external file ("models.cir"); these are standard for the module
+.include models.cir
+
+* Define amplifier as a subcircuit to avoid node name clashes in test bench
+* subckt name must be "audioamp"
+* ---------------------------------------------------------------------------------------------
+* Pin sequence must be:  SignalInput+, SpeakerOut+, SpeakerOut-, SupplyVoltage+, SupplyVoltage-
+* ---------------------------------------------------------------------------------------------
+
+.subckt  audioamp  in  out  outn  vcc  vee 
+
+* Finally, your circuit is defined below:
+
+* ============== CUT OUT BELOW AND BUILD YOUR CIRCUIT ====================
+* Class-B stage - no cross-over support
+
+* Test input voltage source
+
+* Transistors
+Q1		VCC    	q5c 	qnb   	t2N2219A
+Q2  	VCC    	qnb     qne   	TIP41C
+Q3  	VEE    	q7e 	qpb   	t2N2905A
+Q4  	VEE    	qpb     qpe   	TIP42C
+Q5		q5c		q5b		q5e		t2N2905A
+Q6		q7e		q6b		q5c		t2N2905A
+Q7		VEE		q7b		q7e		t2N2905A
+Q8		q8c		q8b		q8e		t2N2219A
+
+* Current Measuring Voltage Sources
+Vicn 	qne    	noden     DC    0
+Vicp 	nodep  	qpe       DC    0
+
+* Small Emitter Resistors
+Ren  	noden  	pwrout    	0.5
+Rep  	pwrout	nodep   	0.5
+
+* VBE Multiplier Resistors
+R1		q5c		q6b		3897.594
+R2		q6b		q7e		0
+
+* Current Source Bias Resistors
+Re 		VCC		q5e		500
+R3		VCC		q5b		5494.5
+R4		q5b		0		55.55K
+
+* Sink Transistor Bias Resistors
+R7A		VCC		q7b		298k
+R7B		q7b		VEE		187k
+
+* Preamplifier Circuit
+Rpc		VCC		q8c		10K
+Rpe		q8e		VEE		247
+Rp1		VCC		q8b		79612
+Rp2		q8b		VEE		2550
+
+* Coupling Capacitors
+Cin  	in     	q8b	  	10u
+Cmid	q8c		q7b		1u
+Cout 	pwrout	out    	3m
+
+* Noise Capacitors
+Cc		VCC		0		100u
+Ce		VEE		0		100u
+
+* ============== CUT OUT ABOVE AND BUILD YOUR CIRCUIT ====================
+
+* low resistance speaker connection to ground (to avoid putting "0" in the .subckt line
+
+Rcable outn 0  1m
+
+.ends
+* ============================================
+
+

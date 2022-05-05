@@ -1,0 +1,54 @@
+* Electronics 315 - W02L3
+* BJT CC gain (TYU 6.15)
+* Author: CJ Fourie
+* Last mod: 2 February 2021
+**************************************
+
+Vi      In     0        0     AC    1     0
+
+VCC     VCC    0        5
+VEE     VEE    0       -5
+
+RE      qe     VEE      41.67
+RC      qc     VCC      2k
+RL      out    0        2k
+RB      qb     0        161.2k
+
+CC1     in     qe       100m
+CC2     qc     out      100m
+CB      qb     0        100m
+
+*       Collector   Base     Emitter   Model
+Q1      qc          qb       qe        BJT1
+
+.model BJT1 NPN (BF=100 IS=1e-15)
+
+* A zero current source at the output is open during normal simulation
+* but is used to measure output resistance later
+Io      0      out      ac     0    0
+
+.control
+  AC    DEC    1   10k   10k          $  Do ac analysis at single frequency
+*  To calculate output resistance, zero the input voltage and apply
+*    an ac current at output (if we apply a voltage at the output, it will
+*    short the collector to ground - not intended).
+  alter @Vi[acmag]=0               $ Set Vi = 0:
+  alter @Io[acmag]=1               $ Set Io = 1 A (0 deg phase):
+  alter @RL[r]=1e8                 $ Set load resistance to infinite so that it does not load Io
+  AC    DEC     1  10k   10k       $ Run AC analysis again
+  
+  meas ac vi_magn max ac1.v(in) AT=10k    $  Measure ac magnitudes at 10 kHz from first ac analysis
+  meas ac ii_magn max ac1.i(vi) AT=10k 
+  meas ac vo_magn max ac1.v(out) AT=10k
+  meas ac vo_magn2 max ac2.v(out) AT=10k  $  Measure ac magnitude at 10 kHz from second ac analysis
+
+  let Av = vo_magn/(vi_magn)
+  let Ri = vi_magn/(-ii_magn)  
+  let Ro = vo_magn2                      $ We know Io[acmag] = 1, so Ro = max(vo_magn2)
+  echo
+  echo Voltage gain Av = "$&Av" V/V
+  echo Input resistance Ri = "$&Ri" Ohm
+  echo Closed-loop output resistance Ro = "$&Ro" Ohm
+  echo 
+.endc
+.end

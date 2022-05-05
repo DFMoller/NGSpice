@@ -1,0 +1,2462 @@
+warning, can't find model rspeaker
+
+Circuit: * ngspice test bench for electronics 315 prac 3 audio amplifier
+
+Doing analysis at TEMP = 30.000000 and TNOM = 27.000000
+
+Warning: vi: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+xpsu.1001                              20.0649
+xpsu.1002                               19.203
+xpsu.1003                           0.00299452
+xpsu.2001                             -20.0649
+xpsu.2002                              -19.203
+xpsu.2003                          -0.00299487
+xpsu.1004                              20.0648
+xpsu.2004                             -20.0648
+xpsu.1005                              20.0648
+xpsu.2005                             -20.0648
+vcc                                    20.0648
+vee                                   -20.0648
+in                                           0
+out                                          0
+spkplus                                      0
+outn                                         0
+xamp.q5c                              -7.09374
+xamp.qnb                              -7.33815
+xamp.qne                              -7.52705
+xamp.q7e                              -8.11229
+xamp.qpb                              -7.77079
+xamp.qpe                              -7.52705
+xamp.q5b                               18.2982
+xamp.q5e                                19.035
+xamp.q6b                              -7.83199
+xamp.q7b                              -8.85173
+xamp.q8c                              -1.69055
+xamp.q8b                              -18.8017
+xamp.q8e                              -19.4581
+xamp.noden                            -7.52705
+xamp.nodep                            -7.52705
+xamp.pwrout                           -7.52705
+l.xpsu.lsourcevee#branch            -0.0049328
+l.xpsu.lsourcevcc#branch            0.00528306
+v.xamp.vicp#branch                 1.95382e-09
+v.xamp.vicn#branch                 1.95382e-09
+vlmeas#branch                                0
+vi#branch                                    0
+v.xpsu.vcurrentvee#branch           -0.0049328
+v.xpsu.vcurrentvcc#branch           0.00528306
+v.xpsu.vsourcevee#branch              -2.99487
+v.xpsu.vsourcevcc#branch               2.99452
+
+
+No. of Data Rows : 5008
+Doing analysis at TEMP = 30.000000 and TNOM = 27.000000
+
+Warning: vi: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+xpsu.1001                              20.0649
+xpsu.1002                               19.203
+xpsu.1003                           0.00299452
+xpsu.2001                             -20.0649
+xpsu.2002                              -19.203
+xpsu.2003                          -0.00299487
+xpsu.1004                              20.0648
+xpsu.2004                             -20.0648
+xpsu.1005                              20.0648
+xpsu.2005                             -20.0648
+vcc                                    20.0648
+vee                                   -20.0648
+in                                           0
+out                                          0
+spkplus                                      0
+outn                                         0
+xamp.q5c                              -7.09374
+xamp.qnb                              -7.33815
+xamp.qne                              -7.52705
+xamp.q7e                              -8.11229
+xamp.qpb                              -7.77079
+xamp.qpe                              -7.52705
+xamp.q5b                               18.2982
+xamp.q5e                                19.035
+xamp.q6b                              -7.83199
+xamp.q7b                              -8.85173
+xamp.q8c                              -1.69055
+xamp.q8b                              -18.8017
+xamp.q8e                              -19.4581
+xamp.noden                            -7.52705
+xamp.nodep                            -7.52705
+xamp.pwrout                           -7.52705
+l.xpsu.lsourcevee#branch            -0.0049328
+l.xpsu.lsourcevcc#branch            0.00528306
+v.xamp.vicp#branch                 1.95382e-09
+v.xamp.vicn#branch                 1.95382e-09
+vlmeas#branch                                0
+vi#branch                                    0
+v.xpsu.vcurrentvee#branch           -0.0049328
+v.xpsu.vcurrentvcc#branch           0.00528306
+v.xpsu.vsourcevee#branch              -2.99487
+v.xpsu.vsourcevcc#branch               2.99452
+
+
+No. of Data Rows : 5008
+Doing analysis at TEMP = 30.000000 and TNOM = 27.000000
+
+Warning: vi: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+xpsu.1001                              20.0649
+xpsu.1002                               19.203
+xpsu.1003                           0.00299452
+xpsu.2001                             -20.0649
+xpsu.2002                              -19.203
+xpsu.2003                          -0.00299487
+xpsu.1004                              20.0648
+xpsu.2004                             -20.0648
+xpsu.1005                              20.0648
+xpsu.2005                             -20.0648
+vcc                                    20.0648
+vee                                   -20.0648
+in                                           0
+out                                          0
+spkplus                                      0
+outn                                         0
+xamp.q5c                              -7.09374
+xamp.qnb                              -7.33815
+xamp.qne                              -7.52705
+xamp.q7e                              -8.11229
+xamp.qpb                              -7.77079
+xamp.qpe                              -7.52705
+xamp.q5b                               18.2982
+xamp.q5e                                19.035
+xamp.q6b                              -7.83199
+xamp.q7b                              -8.85173
+xamp.q8c                              -1.69055
+xamp.q8b                              -18.8017
+xamp.q8e                              -19.4581
+xamp.noden                            -7.52705
+xamp.nodep                            -7.52705
+xamp.pwrout                           -7.52705
+l.xpsu.lsourcevee#branch            -0.0049328
+l.xpsu.lsourcevcc#branch            0.00528306
+v.xamp.vicp#branch                 1.95382e-09
+v.xamp.vicn#branch                 1.95382e-09
+vlmeas#branch                                0
+vi#branch                                    0
+v.xpsu.vcurrentvee#branch           -0.0049328
+v.xpsu.vcurrentvcc#branch           0.00528306
+v.xpsu.vsourcevee#branch              -2.99487
+v.xpsu.vsourcevcc#branch               2.99452
+
+
+No. of Data Rows : 5008
+Doing analysis at TEMP = 30.000000 and TNOM = 27.000000
+
+Warning: vi: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+xpsu.1001                              20.0649
+xpsu.1002                               19.203
+xpsu.1003                           0.00299452
+xpsu.2001                             -20.0649
+xpsu.2002                              -19.203
+xpsu.2003                          -0.00299487
+xpsu.1004                              20.0648
+xpsu.2004                             -20.0648
+xpsu.1005                              20.0648
+xpsu.2005                             -20.0648
+vcc                                    20.0648
+vee                                   -20.0648
+in                                           0
+out                                          0
+spkplus                                      0
+outn                                         0
+xamp.q5c                              -7.09374
+xamp.qnb                              -7.33815
+xamp.qne                              -7.52705
+xamp.q7e                              -8.11229
+xamp.qpb                              -7.77079
+xamp.qpe                              -7.52705
+xamp.q5b                               18.2982
+xamp.q5e                                19.035
+xamp.q6b                              -7.83199
+xamp.q7b                              -8.85173
+xamp.q8c                              -1.69055
+xamp.q8b                              -18.8017
+xamp.q8e                              -19.4581
+xamp.noden                            -7.52705
+xamp.nodep                            -7.52705
+xamp.pwrout                           -7.52705
+l.xpsu.lsourcevee#branch            -0.0049328
+l.xpsu.lsourcevcc#branch            0.00528306
+v.xamp.vicp#branch                 1.95382e-09
+v.xamp.vicn#branch                 1.95382e-09
+vlmeas#branch                                0
+vi#branch                                    0
+v.xpsu.vcurrentvee#branch           -0.0049328
+v.xpsu.vcurrentvcc#branch           0.00528306
+v.xpsu.vsourcevee#branch              -2.99487
+v.xpsu.vsourcevcc#branch               2.99452
+
+
+No. of Data Rows : 5008
+Doing analysis at TEMP = 30.000000 and TNOM = 27.000000
+
+Warning: vi: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+xpsu.1001                              5.06494
+xpsu.1002                                4.203
+xpsu.1003                           0.00299974
+xpsu.2001                             -5.06494
+xpsu.2002                               -4.203
+xpsu.2003                          -0.00299983
+xpsu.1004                              5.06494
+xpsu.2004                             -5.06494
+xpsu.1005                              5.06494
+xpsu.2005                             -5.06494
+vcc                                    5.06494
+vee                                   -5.06494
+in                                           0
+out                                          0
+spkplus                                      0
+outn                                         0
+xamp.q5c                              -2.99574
+xamp.qnb                              -2.62223
+xamp.qne                              -2.68086
+xamp.q7e                              -2.99589
+xamp.qpb                              -2.77497
+xamp.qpe                              -2.68086
+xamp.q5b                               4.60948
+xamp.q5e                               5.06492
+xamp.q6b                              -2.99585
+xamp.q7b                              -3.45191
+xamp.q8c                               5.06487
+xamp.q8b                              -4.73829
+xamp.q8e                              -5.06494
+xamp.noden                            -2.68086
+xamp.nodep                            -2.68086
+xamp.pwrout                           -2.68086
+l.xpsu.lsourcevee#branch          -0.000120472
+l.xpsu.lsourcevcc#branch           0.000208704
+v.xamp.vicp#branch                 1.59664e-11
+v.xamp.vicn#branch                 1.59621e-11
+vlmeas#branch                                0
+vi#branch                                    0
+v.xpsu.vcurrentvee#branch         -0.000120472
+v.xpsu.vcurrentvcc#branch          0.000208704
+v.xpsu.vsourcevee#branch              -2.99983
+v.xpsu.vsourcevcc#branch               2.99974
+
+
+No. of Data Rows : 5014
+Doing analysis at TEMP = 30.000000 and TNOM = 27.000000
+
+Warning: vi: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+xpsu.1001                              20.0649
+xpsu.1002                               19.203
+xpsu.1003                           0.00299452
+xpsu.2001                             -20.0649
+xpsu.2002                              -19.203
+xpsu.2003                          -0.00299487
+xpsu.1004                              20.0648
+xpsu.2004                             -20.0648
+xpsu.1005                              20.0648
+xpsu.2005                             -20.0648
+vcc                                    20.0648
+vee                                   -20.0648
+in                                           0
+out                                          0
+spkplus                                      0
+outn                                         0
+xamp.q5c                              -7.09374
+xamp.qnb                              -7.33815
+xamp.qne                              -7.52705
+xamp.q7e                              -8.11229
+xamp.qpb                              -7.77079
+xamp.qpe                              -7.52705
+xamp.q5b                               18.2982
+xamp.q5e                                19.035
+xamp.q6b                              -7.83199
+xamp.q7b                              -8.85173
+xamp.q8c                              -1.69055
+xamp.q8b                              -18.8017
+xamp.q8e                              -19.4581
+xamp.noden                            -7.52705
+xamp.nodep                            -7.52705
+xamp.pwrout                           -7.52705
+l.xpsu.lsourcevee#branch            -0.0049328
+l.xpsu.lsourcevcc#branch            0.00528306
+v.xamp.vicp#branch                 1.95382e-09
+v.xamp.vicn#branch                 1.95381e-09
+vlmeas#branch                                0
+vi#branch                                    0
+v.xpsu.vcurrentvee#branch           -0.0049328
+v.xpsu.vcurrentvcc#branch           0.00528306
+v.xpsu.vsourcevee#branch              -2.99487
+v.xpsu.vsourcevcc#branch               2.99452
+
+
+No. of Data Rows : 576
+Doing analysis at TEMP = 30.000000 and TNOM = 27.000000
+
+Warning: vi: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+xpsu.1001                              20.0649
+xpsu.1002                               19.203
+xpsu.1003                           0.00299452
+xpsu.2001                             -20.0649
+xpsu.2002                              -19.203
+xpsu.2003                          -0.00299487
+xpsu.1004                              20.0648
+xpsu.2004                             -20.0648
+xpsu.1005                              20.0648
+xpsu.2005                             -20.0648
+vcc                                    20.0648
+vee                                   -20.0648
+in                                           0
+out                                          0
+spkplus                                      0
+outn                                         0
+xamp.q5c                              -7.09374
+xamp.qnb                              -7.33815
+xamp.qne                              -7.52705
+xamp.q7e                              -8.11229
+xamp.qpb                              -7.77079
+xamp.qpe                              -7.52705
+xamp.q5b                               18.2982
+xamp.q5e                                19.035
+xamp.q6b                              -7.83199
+xamp.q7b                              -8.85173
+xamp.q8c                              -1.69055
+xamp.q8b                              -18.8017
+xamp.q8e                              -19.4581
+xamp.noden                            -7.52705
+xamp.nodep                            -7.52705
+xamp.pwrout                           -7.52705
+l.xpsu.lsourcevee#branch            -0.0049328
+l.xpsu.lsourcevcc#branch            0.00528306
+v.xamp.vicp#branch                 1.95382e-09
+v.xamp.vicn#branch                 1.95381e-09
+vlmeas#branch                                0
+vi#branch                                    0
+v.xpsu.vcurrentvee#branch           -0.0049328
+v.xpsu.vcurrentvcc#branch           0.00528306
+v.xpsu.vsourcevee#branch              -2.99487
+v.xpsu.vsourcevcc#branch               2.99452
+
+
+No. of Data Rows : 531
+pwrqnt              =  3.182496e+00 from=  4.000000e-03 to=  5.000000e-03
+pwrqpt              =  1.149278e+00 from=  4.000000e-03 to=  5.000000e-03
+Doing analysis at TEMP = 30.000000 and TNOM = 27.000000
+
+Warning: vi: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+xpsu.1001                              20.0649
+xpsu.1002                               19.203
+xpsu.1003                           0.00299452
+xpsu.2001                             -20.0649
+xpsu.2002                              -19.203
+xpsu.2003                          -0.00299487
+xpsu.1004                              20.0648
+xpsu.2004                             -20.0648
+xpsu.1005                              20.0648
+xpsu.2005                             -20.0648
+vcc                                    20.0648
+vee                                   -20.0648
+in                                           0
+out                                          0
+spkplus                                      0
+outn                                         0
+xamp.q5c                              -7.09374
+xamp.qnb                              -7.33815
+xamp.qne                              -7.52705
+xamp.q7e                              -8.11229
+xamp.qpb                              -7.77079
+xamp.qpe                              -7.52705
+xamp.q5b                               18.2982
+xamp.q5e                                19.035
+xamp.q6b                              -7.83199
+xamp.q7b                              -8.85173
+xamp.q8c                              -1.69055
+xamp.q8b                              -18.8017
+xamp.q8e                              -19.4581
+xamp.noden                            -7.52705
+xamp.nodep                            -7.52705
+xamp.pwrout                           -7.52705
+l.xpsu.lsourcevee#branch            -0.0049328
+l.xpsu.lsourcevcc#branch            0.00528306
+v.xamp.vicp#branch                 1.95382e-09
+v.xamp.vicn#branch                 1.95381e-09
+vlmeas#branch                                0
+vi#branch                                    0
+v.xpsu.vcurrentvee#branch           -0.0049328
+v.xpsu.vcurrentvcc#branch           0.00528306
+v.xpsu.vsourcevee#branch              -2.99487
+v.xpsu.vsourcevcc#branch               2.99452
+
+
+No. of Data Rows : 535
+pwrqnt              =  3.518637e+00 from=  4.000000e-03 to=  5.000000e-03
+pwrqpt              =  1.250735e+00 from=  4.000000e-03 to=  5.000000e-03
+Doing analysis at TEMP = 30.000000 and TNOM = 27.000000
+
+Warning: vi: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+xpsu.1001                              20.0649
+xpsu.1002                               19.203
+xpsu.1003                           0.00299452
+xpsu.2001                             -20.0649
+xpsu.2002                              -19.203
+xpsu.2003                          -0.00299487
+xpsu.1004                              20.0648
+xpsu.2004                             -20.0648
+xpsu.1005                              20.0648
+xpsu.2005                             -20.0648
+vcc                                    20.0648
+vee                                   -20.0648
+in                                           0
+out                                          0
+spkplus                                      0
+outn                                         0
+xamp.q5c                              -7.09374
+xamp.qnb                              -7.33815
+xamp.qne                              -7.52705
+xamp.q7e                              -8.11229
+xamp.qpb                              -7.77079
+xamp.qpe                              -7.52705
+xamp.q5b                               18.2982
+xamp.q5e                                19.035
+xamp.q6b                              -7.83199
+xamp.q7b                              -8.85173
+xamp.q8c                              -1.69055
+xamp.q8b                              -18.8017
+xamp.q8e                              -19.4581
+xamp.noden                            -7.52705
+xamp.nodep                            -7.52705
+xamp.pwrout                           -7.52705
+l.xpsu.lsourcevee#branch            -0.0049328
+l.xpsu.lsourcevcc#branch            0.00528306
+v.xamp.vicp#branch                 1.95382e-09
+v.xamp.vicn#branch                 1.95381e-09
+vlmeas#branch                                0
+vi#branch                                    0
+v.xpsu.vcurrentvee#branch           -0.0049328
+v.xpsu.vcurrentvcc#branch           0.00528306
+v.xpsu.vsourcevee#branch              -2.99487
+v.xpsu.vsourcevcc#branch               2.99452
+
+
+No. of Data Rows : 538
+pwrqnt              =  3.853077e+00 from=  4.000000e-03 to=  5.000000e-03
+pwrqpt              =  1.347110e+00 from=  4.000000e-03 to=  5.000000e-03
+Doing analysis at TEMP = 30.000000 and TNOM = 27.000000
+
+Warning: vi: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+xpsu.1001                              20.0649
+xpsu.1002                               19.203
+xpsu.1003                           0.00299452
+xpsu.2001                             -20.0649
+xpsu.2002                              -19.203
+xpsu.2003                          -0.00299487
+xpsu.1004                              20.0648
+xpsu.2004                             -20.0648
+xpsu.1005                              20.0648
+xpsu.2005                             -20.0648
+vcc                                    20.0648
+vee                                   -20.0648
+in                                           0
+out                                          0
+spkplus                                      0
+outn                                         0
+xamp.q5c                              -7.09374
+xamp.qnb                              -7.33815
+xamp.qne                              -7.52705
+xamp.q7e                              -8.11229
+xamp.qpb                              -7.77079
+xamp.qpe                              -7.52705
+xamp.q5b                               18.2982
+xamp.q5e                                19.035
+xamp.q6b                              -7.83199
+xamp.q7b                              -8.85173
+xamp.q8c                              -1.69055
+xamp.q8b                              -18.8017
+xamp.q8e                              -19.4581
+xamp.noden                            -7.52705
+xamp.nodep                            -7.52705
+xamp.pwrout                           -7.52705
+l.xpsu.lsourcevee#branch            -0.0049328
+l.xpsu.lsourcevcc#branch            0.00528306
+v.xamp.vicp#branch                 1.95382e-09
+v.xamp.vicn#branch                 1.95381e-09
+vlmeas#branch                                0
+vi#branch                                    0
+v.xpsu.vcurrentvee#branch           -0.0049328
+v.xpsu.vcurrentvcc#branch           0.00528306
+v.xpsu.vsourcevee#branch              -2.99487
+v.xpsu.vsourcevcc#branch               2.99452
+
+
+No. of Data Rows : 541
+pwrqnt              =  4.181663e+00 from=  4.000000e-03 to=  5.000000e-03
+pwrqpt              =  1.436924e+00 from=  4.000000e-03 to=  5.000000e-03
+Doing analysis at TEMP = 30.000000 and TNOM = 27.000000
+
+Warning: vi: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+xpsu.1001                              20.0649
+xpsu.1002                               19.203
+xpsu.1003                           0.00299452
+xpsu.2001                             -20.0649
+xpsu.2002                              -19.203
+xpsu.2003                          -0.00299487
+xpsu.1004                              20.0648
+xpsu.2004                             -20.0648
+xpsu.1005                              20.0648
+xpsu.2005                             -20.0648
+vcc                                    20.0648
+vee                                   -20.0648
+in                                           0
+out                                          0
+spkplus                                      0
+outn                                         0
+xamp.q5c                              -7.09374
+xamp.qnb                              -7.33815
+xamp.qne                              -7.52705
+xamp.q7e                              -8.11229
+xamp.qpb                              -7.77079
+xamp.qpe                              -7.52705
+xamp.q5b                               18.2982
+xamp.q5e                                19.035
+xamp.q6b                              -7.83199
+xamp.q7b                              -8.85173
+xamp.q8c                              -1.69055
+xamp.q8b                              -18.8017
+xamp.q8e                              -19.4581
+xamp.noden                            -7.52705
+xamp.nodep                            -7.52705
+xamp.pwrout                           -7.52705
+l.xpsu.lsourcevee#branch            -0.0049328
+l.xpsu.lsourcevcc#branch            0.00528306
+v.xamp.vicp#branch                 1.95382e-09
+v.xamp.vicn#branch                 1.95381e-09
+vlmeas#branch                                0
+vi#branch                                    0
+v.xpsu.vcurrentvee#branch           -0.0049328
+v.xpsu.vcurrentvcc#branch           0.00528306
+v.xpsu.vsourcevee#branch              -2.99487
+v.xpsu.vsourcevcc#branch               2.99452
+
+
+No. of Data Rows : 544
+pwrqnt              =  4.491577e+00 from=  4.000000e-03 to=  5.000000e-03
+pwrqpt              =  1.515637e+00 from=  4.000000e-03 to=  5.000000e-03
+Doing analysis at TEMP = 30.000000 and TNOM = 27.000000
+
+Warning: vi: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+xpsu.1001                              20.0649
+xpsu.1002                               19.203
+xpsu.1003                           0.00299452
+xpsu.2001                             -20.0649
+xpsu.2002                              -19.203
+xpsu.2003                          -0.00299487
+xpsu.1004                              20.0648
+xpsu.2004                             -20.0648
+xpsu.1005                              20.0648
+xpsu.2005                             -20.0648
+vcc                                    20.0648
+vee                                   -20.0648
+in                                           0
+out                                          0
+spkplus                                      0
+outn                                         0
+xamp.q5c                              -7.09374
+xamp.qnb                              -7.33815
+xamp.qne                              -7.52705
+xamp.q7e                              -8.11229
+xamp.qpb                              -7.77079
+xamp.qpe                              -7.52705
+xamp.q5b                               18.2982
+xamp.q5e                                19.035
+xamp.q6b                              -7.83199
+xamp.q7b                              -8.85173
+xamp.q8c                              -1.69055
+xamp.q8b                              -18.8017
+xamp.q8e                              -19.4581
+xamp.noden                            -7.52705
+xamp.nodep                            -7.52705
+xamp.pwrout                           -7.52705
+l.xpsu.lsourcevee#branch            -0.0049328
+l.xpsu.lsourcevcc#branch            0.00528306
+v.xamp.vicp#branch                 1.95382e-09
+v.xamp.vicn#branch                 1.95381e-09
+vlmeas#branch                                0
+vi#branch                                    0
+v.xpsu.vcurrentvee#branch           -0.0049328
+v.xpsu.vcurrentvcc#branch           0.00528306
+v.xpsu.vsourcevee#branch              -2.99487
+v.xpsu.vsourcevcc#branch               2.99452
+
+
+No. of Data Rows : 546
+pwrqnt              =  4.803409e+00 from=  4.000000e-03 to=  5.000000e-03
+pwrqpt              =  1.590355e+00 from=  4.000000e-03 to=  5.000000e-03
+Doing analysis at TEMP = 30.000000 and TNOM = 27.000000
+
+Warning: vi: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+xpsu.1001                              20.0649
+xpsu.1002                               19.203
+xpsu.1003                           0.00299452
+xpsu.2001                             -20.0649
+xpsu.2002                              -19.203
+xpsu.2003                          -0.00299487
+xpsu.1004                              20.0648
+xpsu.2004                             -20.0648
+xpsu.1005                              20.0648
+xpsu.2005                             -20.0648
+vcc                                    20.0648
+vee                                   -20.0648
+in                                           0
+out                                          0
+spkplus                                      0
+outn                                         0
+xamp.q5c                              -7.09374
+xamp.qnb                              -7.33815
+xamp.qne                              -7.52705
+xamp.q7e                              -8.11229
+xamp.qpb                              -7.77079
+xamp.qpe                              -7.52705
+xamp.q5b                               18.2982
+xamp.q5e                                19.035
+xamp.q6b                              -7.83199
+xamp.q7b                              -8.85173
+xamp.q8c                              -1.69055
+xamp.q8b                              -18.8017
+xamp.q8e                              -19.4581
+xamp.noden                            -7.52705
+xamp.nodep                            -7.52705
+xamp.pwrout                           -7.52705
+l.xpsu.lsourcevee#branch            -0.0049328
+l.xpsu.lsourcevcc#branch            0.00528306
+v.xamp.vicp#branch                 1.95382e-09
+v.xamp.vicn#branch                 1.95381e-09
+vlmeas#branch                                0
+vi#branch                                    0
+v.xpsu.vcurrentvee#branch           -0.0049328
+v.xpsu.vcurrentvcc#branch           0.00528306
+v.xpsu.vsourcevee#branch              -2.99487
+v.xpsu.vsourcevcc#branch               2.99452
+
+
+No. of Data Rows : 545
+pwrqnt              =  5.104314e+00 from=  4.000000e-03 to=  5.000000e-03
+pwrqpt              =  1.656578e+00 from=  4.000000e-03 to=  5.000000e-03
+Doing analysis at TEMP = 30.000000 and TNOM = 27.000000
+
+Warning: vi: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+xpsu.1001                              20.0649
+xpsu.1002                               19.203
+xpsu.1003                           0.00299452
+xpsu.2001                             -20.0649
+xpsu.2002                              -19.203
+xpsu.2003                          -0.00299487
+xpsu.1004                              20.0648
+xpsu.2004                             -20.0648
+xpsu.1005                              20.0648
+xpsu.2005                             -20.0648
+vcc                                    20.0648
+vee                                   -20.0648
+in                                           0
+out                                          0
+spkplus                                      0
+outn                                         0
+xamp.q5c                              -7.09374
+xamp.qnb                              -7.33815
+xamp.qne                              -7.52705
+xamp.q7e                              -8.11229
+xamp.qpb                              -7.77079
+xamp.qpe                              -7.52705
+xamp.q5b                               18.2982
+xamp.q5e                                19.035
+xamp.q6b                              -7.83199
+xamp.q7b                              -8.85173
+xamp.q8c                              -1.69055
+xamp.q8b                              -18.8017
+xamp.q8e                              -19.4581
+xamp.noden                            -7.52705
+xamp.nodep                            -7.52705
+xamp.pwrout                           -7.52705
+l.xpsu.lsourcevee#branch            -0.0049328
+l.xpsu.lsourcevcc#branch            0.00528306
+v.xamp.vicp#branch                 1.95382e-09
+v.xamp.vicn#branch                 1.95381e-09
+vlmeas#branch                                0
+vi#branch                                    0
+v.xpsu.vcurrentvee#branch           -0.0049328
+v.xpsu.vcurrentvcc#branch           0.00528306
+v.xpsu.vsourcevee#branch              -2.99487
+v.xpsu.vsourcevcc#branch               2.99452
+
+
+No. of Data Rows : 545
+pwrqnt              =  5.380231e+00 from=  4.000000e-03 to=  5.000000e-03
+pwrqpt              =  1.709844e+00 from=  4.000000e-03 to=  5.000000e-03
+Doing analysis at TEMP = 30.000000 and TNOM = 27.000000
+
+Warning: vi: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+xpsu.1001                              20.0649
+xpsu.1002                               19.203
+xpsu.1003                           0.00299452
+xpsu.2001                             -20.0649
+xpsu.2002                              -19.203
+xpsu.2003                          -0.00299487
+xpsu.1004                              20.0648
+xpsu.2004                             -20.0648
+xpsu.1005                              20.0648
+xpsu.2005                             -20.0648
+vcc                                    20.0648
+vee                                   -20.0648
+in                                           0
+out                                          0
+spkplus                                      0
+outn                                         0
+xamp.q5c                              -7.09374
+xamp.qnb                              -7.33815
+xamp.qne                              -7.52705
+xamp.q7e                              -8.11229
+xamp.qpb                              -7.77079
+xamp.qpe                              -7.52705
+xamp.q5b                               18.2982
+xamp.q5e                                19.035
+xamp.q6b                              -7.83199
+xamp.q7b                              -8.85173
+xamp.q8c                              -1.69055
+xamp.q8b                              -18.8017
+xamp.q8e                              -19.4581
+xamp.noden                            -7.52705
+xamp.nodep                            -7.52705
+xamp.pwrout                           -7.52705
+l.xpsu.lsourcevee#branch            -0.0049328
+l.xpsu.lsourcevcc#branch            0.00528306
+v.xamp.vicp#branch                 1.95382e-09
+v.xamp.vicn#branch                 1.95381e-09
+vlmeas#branch                                0
+vi#branch                                    0
+v.xpsu.vcurrentvee#branch           -0.0049328
+v.xpsu.vcurrentvcc#branch           0.00528306
+v.xpsu.vsourcevee#branch              -2.99487
+v.xpsu.vsourcevcc#branch               2.99452
+
+
+No. of Data Rows : 546
+pwrqnt              =  5.657744e+00 from=  4.000000e-03 to=  5.000000e-03
+pwrqpt              =  1.758762e+00 from=  4.000000e-03 to=  5.000000e-03
+Doing analysis at TEMP = 30.000000 and TNOM = 27.000000
+
+Warning: vi: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+xpsu.1001                              20.0649
+xpsu.1002                               19.203
+xpsu.1003                           0.00299452
+xpsu.2001                             -20.0649
+xpsu.2002                              -19.203
+xpsu.2003                          -0.00299487
+xpsu.1004                              20.0648
+xpsu.2004                             -20.0648
+xpsu.1005                              20.0648
+xpsu.2005                             -20.0648
+vcc                                    20.0648
+vee                                   -20.0648
+in                                           0
+out                                          0
+spkplus                                      0
+outn                                         0
+xamp.q5c                              -7.09374
+xamp.qnb                              -7.33815
+xamp.qne                              -7.52705
+xamp.q7e                              -8.11229
+xamp.qpb                              -7.77079
+xamp.qpe                              -7.52705
+xamp.q5b                               18.2982
+xamp.q5e                                19.035
+xamp.q6b                              -7.83199
+xamp.q7b                              -8.85173
+xamp.q8c                              -1.69055
+xamp.q8b                              -18.8017
+xamp.q8e                              -19.4581
+xamp.noden                            -7.52705
+xamp.nodep                            -7.52705
+xamp.pwrout                           -7.52705
+l.xpsu.lsourcevee#branch            -0.0049328
+l.xpsu.lsourcevcc#branch            0.00528306
+v.xamp.vicp#branch                 1.95382e-09
+v.xamp.vicn#branch                 1.95381e-09
+vlmeas#branch                                0
+vi#branch                                    0
+v.xpsu.vcurrentvee#branch           -0.0049328
+v.xpsu.vcurrentvcc#branch           0.00528306
+v.xpsu.vsourcevee#branch              -2.99487
+v.xpsu.vsourcevcc#branch               2.99452
+
+
+No. of Data Rows : 549
+pwrqnt              =  5.915697e+00 from=  4.000000e-03 to=  5.000000e-03
+pwrqpt              =  1.796680e+00 from=  4.000000e-03 to=  5.000000e-03
+Doing analysis at TEMP = 30.000000 and TNOM = 27.000000
+
+Warning: vi: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+xpsu.1001                              20.0649
+xpsu.1002                               19.203
+xpsu.1003                           0.00299452
+xpsu.2001                             -20.0649
+xpsu.2002                              -19.203
+xpsu.2003                          -0.00299487
+xpsu.1004                              20.0648
+xpsu.2004                             -20.0648
+xpsu.1005                              20.0648
+xpsu.2005                             -20.0648
+vcc                                    20.0648
+vee                                   -20.0648
+in                                           0
+out                                          0
+spkplus                                      0
+outn                                         0
+xamp.q5c                              -7.09374
+xamp.qnb                              -7.33815
+xamp.qne                              -7.52705
+xamp.q7e                              -8.11229
+xamp.qpb                              -7.77079
+xamp.qpe                              -7.52705
+xamp.q5b                               18.2982
+xamp.q5e                                19.035
+xamp.q6b                              -7.83199
+xamp.q7b                              -8.85173
+xamp.q8c                              -1.69055
+xamp.q8b                              -18.8017
+xamp.q8e                              -19.4581
+xamp.noden                            -7.52705
+xamp.nodep                            -7.52705
+xamp.pwrout                           -7.52705
+l.xpsu.lsourcevee#branch            -0.0049328
+l.xpsu.lsourcevcc#branch            0.00528306
+v.xamp.vicp#branch                 1.95382e-09
+v.xamp.vicn#branch                 1.95381e-09
+vlmeas#branch                                0
+vi#branch                                    0
+v.xpsu.vcurrentvee#branch           -0.0049328
+v.xpsu.vcurrentvcc#branch           0.00528306
+v.xpsu.vsourcevee#branch              -2.99487
+v.xpsu.vsourcevcc#branch               2.99452
+
+
+No. of Data Rows : 553
+pwrqnt              =  6.187967e+00 from=  4.000000e-03 to=  5.000000e-03
+pwrqpt              =  1.833870e+00 from=  4.000000e-03 to=  5.000000e-03
+Doing analysis at TEMP = 30.000000 and TNOM = 27.000000
+
+Warning: vi: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+xpsu.1001                              20.0649
+xpsu.1002                               19.203
+xpsu.1003                           0.00299452
+xpsu.2001                             -20.0649
+xpsu.2002                              -19.203
+xpsu.2003                          -0.00299487
+xpsu.1004                              20.0648
+xpsu.2004                             -20.0648
+xpsu.1005                              20.0648
+xpsu.2005                             -20.0648
+vcc                                    20.0648
+vee                                   -20.0648
+in                                           0
+out                                          0
+spkplus                                      0
+outn                                         0
+xamp.q5c                              -7.09374
+xamp.qnb                              -7.33815
+xamp.qne                              -7.52705
+xamp.q7e                              -8.11229
+xamp.qpb                              -7.77079
+xamp.qpe                              -7.52705
+xamp.q5b                               18.2982
+xamp.q5e                                19.035
+xamp.q6b                              -7.83199
+xamp.q7b                              -8.85173
+xamp.q8c                              -1.69055
+xamp.q8b                              -18.8017
+xamp.q8e                              -19.4581
+xamp.noden                            -7.52705
+xamp.nodep                            -7.52705
+xamp.pwrout                           -7.52705
+l.xpsu.lsourcevee#branch            -0.0049328
+l.xpsu.lsourcevcc#branch            0.00528306
+v.xamp.vicp#branch                 1.95382e-09
+v.xamp.vicn#branch                 1.95381e-09
+vlmeas#branch                                0
+vi#branch                                    0
+v.xpsu.vcurrentvee#branch           -0.0049328
+v.xpsu.vcurrentvcc#branch           0.00528306
+v.xpsu.vsourcevee#branch              -2.99487
+v.xpsu.vsourcevcc#branch               2.99452
+
+
+No. of Data Rows : 556
+pwrqnt              =  6.429469e+00 from=  4.000000e-03 to=  5.000000e-03
+pwrqpt              =  1.856287e+00 from=  4.000000e-03 to=  5.000000e-03
+Doing analysis at TEMP = 30.000000 and TNOM = 27.000000
+
+Warning: vi: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+xpsu.1001                              20.0649
+xpsu.1002                               19.203
+xpsu.1003                           0.00299452
+xpsu.2001                             -20.0649
+xpsu.2002                              -19.203
+xpsu.2003                          -0.00299487
+xpsu.1004                              20.0648
+xpsu.2004                             -20.0648
+xpsu.1005                              20.0648
+xpsu.2005                             -20.0648
+vcc                                    20.0648
+vee                                   -20.0648
+in                                           0
+out                                          0
+spkplus                                      0
+outn                                         0
+xamp.q5c                              -7.09374
+xamp.qnb                              -7.33815
+xamp.qne                              -7.52705
+xamp.q7e                              -8.11229
+xamp.qpb                              -7.77079
+xamp.qpe                              -7.52705
+xamp.q5b                               18.2982
+xamp.q5e                                19.035
+xamp.q6b                              -7.83199
+xamp.q7b                              -8.85173
+xamp.q8c                              -1.69055
+xamp.q8b                              -18.8017
+xamp.q8e                              -19.4581
+xamp.noden                            -7.52705
+xamp.nodep                            -7.52705
+xamp.pwrout                           -7.52705
+l.xpsu.lsourcevee#branch            -0.0049328
+l.xpsu.lsourcevcc#branch            0.00528306
+v.xamp.vicp#branch                 1.95382e-09
+v.xamp.vicn#branch                 1.95381e-09
+vlmeas#branch                                0
+vi#branch                                    0
+v.xpsu.vcurrentvee#branch           -0.0049328
+v.xpsu.vcurrentvcc#branch           0.00528306
+v.xpsu.vsourcevee#branch              -2.99487
+v.xpsu.vsourcevcc#branch               2.99452
+
+
+No. of Data Rows : 556
+pwrqnt              =  6.658543e+00 from=  4.000000e-03 to=  5.000000e-03
+pwrqpt              =  1.870273e+00 from=  4.000000e-03 to=  5.000000e-03
+Doing analysis at TEMP = 30.000000 and TNOM = 27.000000
+
+Warning: vi: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+xpsu.1001                              20.0649
+xpsu.1002                               19.203
+xpsu.1003                           0.00299452
+xpsu.2001                             -20.0649
+xpsu.2002                              -19.203
+xpsu.2003                          -0.00299487
+xpsu.1004                              20.0648
+xpsu.2004                             -20.0648
+xpsu.1005                              20.0648
+xpsu.2005                             -20.0648
+vcc                                    20.0648
+vee                                   -20.0648
+in                                           0
+out                                          0
+spkplus                                      0
+outn                                         0
+xamp.q5c                              -7.09374
+xamp.qnb                              -7.33815
+xamp.qne                              -7.52705
+xamp.q7e                              -8.11229
+xamp.qpb                              -7.77079
+xamp.qpe                              -7.52705
+xamp.q5b                               18.2982
+xamp.q5e                                19.035
+xamp.q6b                              -7.83199
+xamp.q7b                              -8.85173
+xamp.q8c                              -1.69055
+xamp.q8b                              -18.8017
+xamp.q8e                              -19.4581
+xamp.noden                            -7.52705
+xamp.nodep                            -7.52705
+xamp.pwrout                           -7.52705
+l.xpsu.lsourcevee#branch            -0.0049328
+l.xpsu.lsourcevcc#branch            0.00528306
+v.xamp.vicp#branch                 1.95382e-09
+v.xamp.vicn#branch                 1.95381e-09
+vlmeas#branch                                0
+vi#branch                                    0
+v.xpsu.vcurrentvee#branch           -0.0049328
+v.xpsu.vcurrentvcc#branch           0.00528306
+v.xpsu.vsourcevee#branch              -2.99487
+v.xpsu.vsourcevcc#branch               2.99452
+
+
+No. of Data Rows : 557
+pwrqnt              =  6.884074e+00 from=  4.000000e-03 to=  5.000000e-03
+pwrqpt              =  1.877902e+00 from=  4.000000e-03 to=  5.000000e-03
+Doing analysis at TEMP = 30.000000 and TNOM = 27.000000
+
+Warning: vi: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+xpsu.1001                              20.0649
+xpsu.1002                               19.203
+xpsu.1003                           0.00299452
+xpsu.2001                             -20.0649
+xpsu.2002                              -19.203
+xpsu.2003                          -0.00299487
+xpsu.1004                              20.0648
+xpsu.2004                             -20.0648
+xpsu.1005                              20.0648
+xpsu.2005                             -20.0648
+vcc                                    20.0648
+vee                                   -20.0648
+in                                           0
+out                                          0
+spkplus                                      0
+outn                                         0
+xamp.q5c                              -7.09374
+xamp.qnb                              -7.33815
+xamp.qne                              -7.52705
+xamp.q7e                              -8.11229
+xamp.qpb                              -7.77079
+xamp.qpe                              -7.52705
+xamp.q5b                               18.2982
+xamp.q5e                                19.035
+xamp.q6b                              -7.83199
+xamp.q7b                              -8.85173
+xamp.q8c                              -1.69055
+xamp.q8b                              -18.8017
+xamp.q8e                              -19.4581
+xamp.noden                            -7.52705
+xamp.nodep                            -7.52705
+xamp.pwrout                           -7.52705
+l.xpsu.lsourcevee#branch            -0.0049328
+l.xpsu.lsourcevcc#branch            0.00528306
+v.xamp.vicp#branch                 1.95382e-09
+v.xamp.vicn#branch                 1.95381e-09
+vlmeas#branch                                0
+vi#branch                                    0
+v.xpsu.vcurrentvee#branch           -0.0049328
+v.xpsu.vcurrentvcc#branch           0.00528306
+v.xpsu.vsourcevee#branch              -2.99487
+v.xpsu.vsourcevcc#branch               2.99452
+
+
+No. of Data Rows : 559
+pwrqnt              =  7.117128e+00 from=  4.000000e-03 to=  5.000000e-03
+pwrqpt              =  1.881955e+00 from=  4.000000e-03 to=  5.000000e-03
+Doing analysis at TEMP = 30.000000 and TNOM = 27.000000
+
+Warning: vi: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+xpsu.1001                              20.0649
+xpsu.1002                               19.203
+xpsu.1003                           0.00299452
+xpsu.2001                             -20.0649
+xpsu.2002                              -19.203
+xpsu.2003                          -0.00299487
+xpsu.1004                              20.0648
+xpsu.2004                             -20.0648
+xpsu.1005                              20.0648
+xpsu.2005                             -20.0648
+vcc                                    20.0648
+vee                                   -20.0648
+in                                           0
+out                                          0
+spkplus                                      0
+outn                                         0
+xamp.q5c                              -7.09374
+xamp.qnb                              -7.33815
+xamp.qne                              -7.52705
+xamp.q7e                              -8.11229
+xamp.qpb                              -7.77079
+xamp.qpe                              -7.52705
+xamp.q5b                               18.2982
+xamp.q5e                                19.035
+xamp.q6b                              -7.83199
+xamp.q7b                              -8.85173
+xamp.q8c                              -1.69055
+xamp.q8b                              -18.8017
+xamp.q8e                              -19.4581
+xamp.noden                            -7.52705
+xamp.nodep                            -7.52705
+xamp.pwrout                           -7.52705
+l.xpsu.lsourcevee#branch            -0.0049328
+l.xpsu.lsourcevcc#branch            0.00528306
+v.xamp.vicp#branch                 1.95382e-09
+v.xamp.vicn#branch                 1.95381e-09
+vlmeas#branch                                0
+vi#branch                                    0
+v.xpsu.vcurrentvee#branch           -0.0049328
+v.xpsu.vcurrentvcc#branch           0.00528306
+v.xpsu.vsourcevee#branch              -2.99487
+v.xpsu.vsourcevcc#branch               2.99452
+
+
+No. of Data Rows : 560
+pwrqnt              =  7.309026e+00 from=  4.000000e-03 to=  5.000000e-03
+pwrqpt              =  1.870181e+00 from=  4.000000e-03 to=  5.000000e-03
+Doing analysis at TEMP = 30.000000 and TNOM = 27.000000
+
+Warning: vi: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+xpsu.1001                              20.0649
+xpsu.1002                               19.203
+xpsu.1003                           0.00299452
+xpsu.2001                             -20.0649
+xpsu.2002                              -19.203
+xpsu.2003                          -0.00299487
+xpsu.1004                              20.0648
+xpsu.2004                             -20.0648
+xpsu.1005                              20.0648
+xpsu.2005                             -20.0648
+vcc                                    20.0648
+vee                                   -20.0648
+in                                           0
+out                                          0
+spkplus                                      0
+outn                                         0
+xamp.q5c                              -7.09374
+xamp.qnb                              -7.33815
+xamp.qne                              -7.52705
+xamp.q7e                              -8.11229
+xamp.qpb                              -7.77079
+xamp.qpe                              -7.52705
+xamp.q5b                               18.2982
+xamp.q5e                                19.035
+xamp.q6b                              -7.83199
+xamp.q7b                              -8.85173
+xamp.q8c                              -1.69055
+xamp.q8b                              -18.8017
+xamp.q8e                              -19.4581
+xamp.noden                            -7.52705
+xamp.nodep                            -7.52705
+xamp.pwrout                           -7.52705
+l.xpsu.lsourcevee#branch            -0.0049328
+l.xpsu.lsourcevcc#branch            0.00528306
+v.xamp.vicp#branch                 1.95382e-09
+v.xamp.vicn#branch                 1.95381e-09
+vlmeas#branch                                0
+vi#branch                                    0
+v.xpsu.vcurrentvee#branch           -0.0049328
+v.xpsu.vcurrentvcc#branch           0.00528306
+v.xpsu.vsourcevee#branch              -2.99487
+v.xpsu.vsourcevcc#branch               2.99452
+
+
+No. of Data Rows : 562
+pwrqnt              =  7.503158e+00 from=  4.000000e-03 to=  5.000000e-03
+pwrqpt              =  1.852886e+00 from=  4.000000e-03 to=  5.000000e-03
+Doing analysis at TEMP = 30.000000 and TNOM = 27.000000
+
+Warning: vi: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+xpsu.1001                              20.0649
+xpsu.1002                               19.203
+xpsu.1003                           0.00299452
+xpsu.2001                             -20.0649
+xpsu.2002                              -19.203
+xpsu.2003                          -0.00299487
+xpsu.1004                              20.0648
+xpsu.2004                             -20.0648
+xpsu.1005                              20.0648
+xpsu.2005                             -20.0648
+vcc                                    20.0648
+vee                                   -20.0648
+in                                           0
+out                                          0
+spkplus                                      0
+outn                                         0
+xamp.q5c                              -7.09374
+xamp.qnb                              -7.33815
+xamp.qne                              -7.52705
+xamp.q7e                              -8.11229
+xamp.qpb                              -7.77079
+xamp.qpe                              -7.52705
+xamp.q5b                               18.2982
+xamp.q5e                                19.035
+xamp.q6b                              -7.83199
+xamp.q7b                              -8.85173
+xamp.q8c                              -1.69055
+xamp.q8b                              -18.8017
+xamp.q8e                              -19.4581
+xamp.noden                            -7.52705
+xamp.nodep                            -7.52705
+xamp.pwrout                           -7.52705
+l.xpsu.lsourcevee#branch            -0.0049328
+l.xpsu.lsourcevcc#branch            0.00528306
+v.xamp.vicp#branch                 1.95382e-09
+v.xamp.vicn#branch                 1.95381e-09
+vlmeas#branch                                0
+vi#branch                                    0
+v.xpsu.vcurrentvee#branch           -0.0049328
+v.xpsu.vcurrentvcc#branch           0.00528306
+v.xpsu.vsourcevee#branch              -2.99487
+v.xpsu.vsourcevcc#branch               2.99452
+
+
+No. of Data Rows : 565
+pwrqnt              =  7.693165e+00 from=  4.000000e-03 to=  5.000000e-03
+pwrqpt              =  1.828571e+00 from=  4.000000e-03 to=  5.000000e-03
+Doing analysis at TEMP = 30.000000 and TNOM = 27.000000
+
+Warning: vi: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+xpsu.1001                              20.0649
+xpsu.1002                               19.203
+xpsu.1003                           0.00299452
+xpsu.2001                             -20.0649
+xpsu.2002                              -19.203
+xpsu.2003                          -0.00299487
+xpsu.1004                              20.0648
+xpsu.2004                             -20.0648
+xpsu.1005                              20.0648
+xpsu.2005                             -20.0648
+vcc                                    20.0648
+vee                                   -20.0648
+in                                           0
+out                                          0
+spkplus                                      0
+outn                                         0
+xamp.q5c                              -7.09374
+xamp.qnb                              -7.33815
+xamp.qne                              -7.52705
+xamp.q7e                              -8.11229
+xamp.qpb                              -7.77079
+xamp.qpe                              -7.52705
+xamp.q5b                               18.2982
+xamp.q5e                                19.035
+xamp.q6b                              -7.83199
+xamp.q7b                              -8.85173
+xamp.q8c                              -1.69055
+xamp.q8b                              -18.8017
+xamp.q8e                              -19.4581
+xamp.noden                            -7.52705
+xamp.nodep                            -7.52705
+xamp.pwrout                           -7.52705
+l.xpsu.lsourcevee#branch            -0.0049328
+l.xpsu.lsourcevcc#branch            0.00528306
+v.xamp.vicp#branch                 1.95382e-09
+v.xamp.vicn#branch                 1.95381e-09
+vlmeas#branch                                0
+vi#branch                                    0
+v.xpsu.vcurrentvee#branch           -0.0049328
+v.xpsu.vcurrentvcc#branch           0.00528306
+v.xpsu.vsourcevee#branch              -2.99487
+v.xpsu.vsourcevcc#branch               2.99452
+
+
+No. of Data Rows : 565
+pwrqnt              =  7.885691e+00 from=  4.000000e-03 to=  5.000000e-03
+pwrqpt              =  1.798801e+00 from=  4.000000e-03 to=  5.000000e-03
+Doing analysis at TEMP = 30.000000 and TNOM = 27.000000
+
+Warning: vi: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+xpsu.1001                              20.0649
+xpsu.1002                               19.203
+xpsu.1003                           0.00299452
+xpsu.2001                             -20.0649
+xpsu.2002                              -19.203
+xpsu.2003                          -0.00299487
+xpsu.1004                              20.0648
+xpsu.2004                             -20.0648
+xpsu.1005                              20.0648
+xpsu.2005                             -20.0648
+vcc                                    20.0648
+vee                                   -20.0648
+in                                           0
+out                                          0
+spkplus                                      0
+outn                                         0
+xamp.q5c                              -7.09374
+xamp.qnb                              -7.33815
+xamp.qne                              -7.52705
+xamp.q7e                              -8.11229
+xamp.qpb                              -7.77079
+xamp.qpe                              -7.52705
+xamp.q5b                               18.2982
+xamp.q5e                                19.035
+xamp.q6b                              -7.83199
+xamp.q7b                              -8.85173
+xamp.q8c                              -1.69055
+xamp.q8b                              -18.8017
+xamp.q8e                              -19.4581
+xamp.noden                            -7.52705
+xamp.nodep                            -7.52705
+xamp.pwrout                           -7.52705
+l.xpsu.lsourcevee#branch            -0.0049328
+l.xpsu.lsourcevcc#branch            0.00528306
+v.xamp.vicp#branch                 1.95382e-09
+v.xamp.vicn#branch                 1.95381e-09
+vlmeas#branch                                0
+vi#branch                                    0
+v.xpsu.vcurrentvee#branch           -0.0049328
+v.xpsu.vcurrentvcc#branch           0.00528306
+v.xpsu.vsourcevee#branch              -2.99487
+v.xpsu.vsourcevcc#branch               2.99452
+
+
+No. of Data Rows : 563
+pwrqnt              =  8.055207e+00 from=  4.000000e-03 to=  5.000000e-03
+pwrqpt              =  1.757937e+00 from=  4.000000e-03 to=  5.000000e-03
+Doing analysis at TEMP = 30.000000 and TNOM = 27.000000
+
+Warning: vi: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+xpsu.1001                              20.0649
+xpsu.1002                               19.203
+xpsu.1003                           0.00299452
+xpsu.2001                             -20.0649
+xpsu.2002                              -19.203
+xpsu.2003                          -0.00299487
+xpsu.1004                              20.0648
+xpsu.2004                             -20.0648
+xpsu.1005                              20.0648
+xpsu.2005                             -20.0648
+vcc                                    20.0648
+vee                                   -20.0648
+in                                           0
+out                                          0
+spkplus                                      0
+outn                                         0
+xamp.q5c                              -7.09374
+xamp.qnb                              -7.33815
+xamp.qne                              -7.52705
+xamp.q7e                              -8.11229
+xamp.qpb                              -7.77079
+xamp.qpe                              -7.52705
+xamp.q5b                               18.2982
+xamp.q5e                                19.035
+xamp.q6b                              -7.83199
+xamp.q7b                              -8.85173
+xamp.q8c                              -1.69055
+xamp.q8b                              -18.8017
+xamp.q8e                              -19.4581
+xamp.noden                            -7.52705
+xamp.nodep                            -7.52705
+xamp.pwrout                           -7.52705
+l.xpsu.lsourcevee#branch            -0.0049328
+l.xpsu.lsourcevcc#branch            0.00528306
+v.xamp.vicp#branch                 1.95382e-09
+v.xamp.vicn#branch                 1.95381e-09
+vlmeas#branch                                0
+vi#branch                                    0
+v.xpsu.vcurrentvee#branch           -0.0049328
+v.xpsu.vcurrentvcc#branch           0.00528306
+v.xpsu.vsourcevee#branch              -2.99487
+v.xpsu.vsourcevcc#branch               2.99452
+
+
+No. of Data Rows : 564
+pwrqnt              =  8.204684e+00 from=  4.000000e-03 to=  5.000000e-03
+pwrqpt              =  1.706955e+00 from=  4.000000e-03 to=  5.000000e-03
+Doing analysis at TEMP = 30.000000 and TNOM = 27.000000
+
+Warning: vi: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+xpsu.1001                              20.0649
+xpsu.1002                               19.203
+xpsu.1003                           0.00299452
+xpsu.2001                             -20.0649
+xpsu.2002                              -19.203
+xpsu.2003                          -0.00299487
+xpsu.1004                              20.0648
+xpsu.2004                             -20.0648
+xpsu.1005                              20.0648
+xpsu.2005                             -20.0648
+vcc                                    20.0648
+vee                                   -20.0648
+in                                           0
+out                                          0
+spkplus                                      0
+outn                                         0
+xamp.q5c                              -7.09374
+xamp.qnb                              -7.33815
+xamp.qne                              -7.52705
+xamp.q7e                              -8.11229
+xamp.qpb                              -7.77079
+xamp.qpe                              -7.52705
+xamp.q5b                               18.2982
+xamp.q5e                                19.035
+xamp.q6b                              -7.83199
+xamp.q7b                              -8.85173
+xamp.q8c                              -1.69055
+xamp.q8b                              -18.8017
+xamp.q8e                              -19.4581
+xamp.noden                            -7.52705
+xamp.nodep                            -7.52705
+xamp.pwrout                           -7.52705
+l.xpsu.lsourcevee#branch            -0.0049328
+l.xpsu.lsourcevcc#branch            0.00528306
+v.xamp.vicp#branch                 1.95382e-09
+v.xamp.vicn#branch                 1.95381e-09
+vlmeas#branch                                0
+vi#branch                                    0
+v.xpsu.vcurrentvee#branch           -0.0049328
+v.xpsu.vcurrentvcc#branch           0.00528306
+v.xpsu.vsourcevee#branch              -2.99487
+v.xpsu.vsourcevcc#branch               2.99452
+
+
+No. of Data Rows : 566
+pwrqnt              =  8.350059e+00 from=  4.000000e-03 to=  5.000000e-03
+pwrqpt              =  1.652722e+00 from=  4.000000e-03 to=  5.000000e-03
+Doing analysis at TEMP = 30.000000 and TNOM = 27.000000
+
+Warning: vi: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+xpsu.1001                              20.0649
+xpsu.1002                               19.203
+xpsu.1003                           0.00299452
+xpsu.2001                             -20.0649
+xpsu.2002                              -19.203
+xpsu.2003                          -0.00299487
+xpsu.1004                              20.0648
+xpsu.2004                             -20.0648
+xpsu.1005                              20.0648
+xpsu.2005                             -20.0648
+vcc                                    20.0648
+vee                                   -20.0648
+in                                           0
+out                                          0
+spkplus                                      0
+outn                                         0
+xamp.q5c                              -7.09374
+xamp.qnb                              -7.33815
+xamp.qne                              -7.52705
+xamp.q7e                              -8.11229
+xamp.qpb                              -7.77079
+xamp.qpe                              -7.52705
+xamp.q5b                               18.2982
+xamp.q5e                                19.035
+xamp.q6b                              -7.83199
+xamp.q7b                              -8.85173
+xamp.q8c                              -1.69055
+xamp.q8b                              -18.8017
+xamp.q8e                              -19.4581
+xamp.noden                            -7.52705
+xamp.nodep                            -7.52705
+xamp.pwrout                           -7.52705
+l.xpsu.lsourcevee#branch            -0.0049328
+l.xpsu.lsourcevcc#branch            0.00528306
+v.xamp.vicp#branch                 1.95382e-09
+v.xamp.vicn#branch                 1.95381e-09
+vlmeas#branch                                0
+vi#branch                                    0
+v.xpsu.vcurrentvee#branch           -0.0049328
+v.xpsu.vcurrentvcc#branch           0.00528306
+v.xpsu.vsourcevee#branch              -2.99487
+v.xpsu.vsourcevcc#branch               2.99452
+
+
+No. of Data Rows : 565
+pwrqnt              =  8.483583e+00 from=  4.000000e-03 to=  5.000000e-03
+pwrqpt              =  1.613378e+00 from=  4.000000e-03 to=  5.000000e-03
+Doing analysis at TEMP = 30.000000 and TNOM = 27.000000
+
+Warning: vi: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+xpsu.1001                              20.0649
+xpsu.1002                               19.203
+xpsu.1003                           0.00299452
+xpsu.2001                             -20.0649
+xpsu.2002                              -19.203
+xpsu.2003                          -0.00299487
+xpsu.1004                              20.0648
+xpsu.2004                             -20.0648
+xpsu.1005                              20.0648
+xpsu.2005                             -20.0648
+vcc                                    20.0648
+vee                                   -20.0648
+in                                           0
+out                                          0
+spkplus                                      0
+outn                                         0
+xamp.q5c                              -7.09374
+xamp.qnb                              -7.33815
+xamp.qne                              -7.52705
+xamp.q7e                              -8.11229
+xamp.qpb                              -7.77079
+xamp.qpe                              -7.52705
+xamp.q5b                               18.2982
+xamp.q5e                                19.035
+xamp.q6b                              -7.83199
+xamp.q7b                              -8.85173
+xamp.q8c                              -1.69055
+xamp.q8b                              -18.8017
+xamp.q8e                              -19.4581
+xamp.noden                            -7.52705
+xamp.nodep                            -7.52705
+xamp.pwrout                           -7.52705
+l.xpsu.lsourcevee#branch            -0.0049328
+l.xpsu.lsourcevcc#branch            0.00528306
+v.xamp.vicp#branch                 1.95382e-09
+v.xamp.vicn#branch                 1.95381e-09
+vlmeas#branch                                0
+vi#branch                                    0
+v.xpsu.vcurrentvee#branch           -0.0049328
+v.xpsu.vcurrentvcc#branch           0.00528306
+v.xpsu.vsourcevee#branch              -2.99487
+v.xpsu.vsourcevcc#branch               2.99452
+
+
+No. of Data Rows : 570
+pwrqnt              =  8.586122e+00 from=  4.000000e-03 to=  5.000000e-03
+pwrqpt              =  1.580894e+00 from=  4.000000e-03 to=  5.000000e-03
+Doing analysis at TEMP = 30.000000 and TNOM = 27.000000
+
+Warning: vi: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+xpsu.1001                              20.0649
+xpsu.1002                               19.203
+xpsu.1003                           0.00299452
+xpsu.2001                             -20.0649
+xpsu.2002                              -19.203
+xpsu.2003                          -0.00299487
+xpsu.1004                              20.0648
+xpsu.2004                             -20.0648
+xpsu.1005                              20.0648
+xpsu.2005                             -20.0648
+vcc                                    20.0648
+vee                                   -20.0648
+in                                           0
+out                                          0
+spkplus                                      0
+outn                                         0
+xamp.q5c                              -7.09374
+xamp.qnb                              -7.33815
+xamp.qne                              -7.52705
+xamp.q7e                              -8.11229
+xamp.qpb                              -7.77079
+xamp.qpe                              -7.52705
+xamp.q5b                               18.2982
+xamp.q5e                                19.035
+xamp.q6b                              -7.83199
+xamp.q7b                              -8.85173
+xamp.q8c                              -1.69055
+xamp.q8b                              -18.8017
+xamp.q8e                              -19.4581
+xamp.noden                            -7.52705
+xamp.nodep                            -7.52705
+xamp.pwrout                           -7.52705
+l.xpsu.lsourcevee#branch            -0.0049328
+l.xpsu.lsourcevcc#branch            0.00528306
+v.xamp.vicp#branch                 1.95382e-09
+v.xamp.vicn#branch                 1.95381e-09
+vlmeas#branch                                0
+vi#branch                                    0
+v.xpsu.vcurrentvee#branch           -0.0049328
+v.xpsu.vcurrentvcc#branch           0.00528306
+v.xpsu.vsourcevee#branch              -2.99487
+v.xpsu.vsourcevcc#branch               2.99452
+
+
+No. of Data Rows : 577
+pwrqnt              =  8.706829e+00 from=  4.000000e-03 to=  5.000000e-03
+pwrqpt              =  1.557259e+00 from=  4.000000e-03 to=  5.000000e-03
+Doing analysis at TEMP = 30.000000 and TNOM = 27.000000
+
+Warning: vi: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+xpsu.1001                              20.0649
+xpsu.1002                               19.203
+xpsu.1003                           0.00299452
+xpsu.2001                             -20.0649
+xpsu.2002                              -19.203
+xpsu.2003                          -0.00299487
+xpsu.1004                              20.0648
+xpsu.2004                             -20.0648
+xpsu.1005                              20.0648
+xpsu.2005                             -20.0648
+vcc                                    20.0648
+vee                                   -20.0648
+in                                           0
+out                                          0
+spkplus                                      0
+outn                                         0
+xamp.q5c                              -7.09374
+xamp.qnb                              -7.33815
+xamp.qne                              -7.52705
+xamp.q7e                              -8.11229
+xamp.qpb                              -7.77079
+xamp.qpe                              -7.52705
+xamp.q5b                               18.2982
+xamp.q5e                                19.035
+xamp.q6b                              -7.83199
+xamp.q7b                              -8.85173
+xamp.q8c                              -1.69055
+xamp.q8b                              -18.8017
+xamp.q8e                              -19.4581
+xamp.noden                            -7.52705
+xamp.nodep                            -7.52705
+xamp.pwrout                           -7.52705
+l.xpsu.lsourcevee#branch            -0.0049328
+l.xpsu.lsourcevcc#branch            0.00528306
+v.xamp.vicp#branch                 1.95382e-09
+v.xamp.vicn#branch                 1.95381e-09
+vlmeas#branch                                0
+vi#branch                                    0
+v.xpsu.vcurrentvee#branch           -0.0049328
+v.xpsu.vcurrentvcc#branch           0.00528306
+v.xpsu.vsourcevee#branch              -2.99487
+v.xpsu.vsourcevcc#branch               2.99452
+
+
+No. of Data Rows : 571
+pwrqnt              =  8.788634e+00 from=  4.000000e-03 to=  5.000000e-03
+pwrqpt              =  1.533051e+00 from=  4.000000e-03 to=  5.000000e-03
+Doing analysis at TEMP = 30.000000 and TNOM = 27.000000
+
+Warning: vi: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+xpsu.1001                              20.0649
+xpsu.1002                               19.203
+xpsu.1003                           0.00299452
+xpsu.2001                             -20.0649
+xpsu.2002                              -19.203
+xpsu.2003                          -0.00299487
+xpsu.1004                              20.0648
+xpsu.2004                             -20.0648
+xpsu.1005                              20.0648
+xpsu.2005                             -20.0648
+vcc                                    20.0648
+vee                                   -20.0648
+in                                           0
+out                                          0
+spkplus                                      0
+outn                                         0
+xamp.q5c                              -7.09374
+xamp.qnb                              -7.33815
+xamp.qne                              -7.52705
+xamp.q7e                              -8.11229
+xamp.qpb                              -7.77079
+xamp.qpe                              -7.52705
+xamp.q5b                               18.2982
+xamp.q5e                                19.035
+xamp.q6b                              -7.83199
+xamp.q7b                              -8.85173
+xamp.q8c                              -1.69055
+xamp.q8b                              -18.8017
+xamp.q8e                              -19.4581
+xamp.noden                            -7.52705
+xamp.nodep                            -7.52705
+xamp.pwrout                           -7.52705
+l.xpsu.lsourcevee#branch            -0.0049328
+l.xpsu.lsourcevcc#branch            0.00528306
+v.xamp.vicp#branch                 1.95382e-09
+v.xamp.vicn#branch                 1.95381e-09
+vlmeas#branch                                0
+vi#branch                                    0
+v.xpsu.vcurrentvee#branch           -0.0049328
+v.xpsu.vcurrentvcc#branch           0.00528306
+v.xpsu.vsourcevee#branch              -2.99487
+v.xpsu.vsourcevcc#branch               2.99452
+
+
+No. of Data Rows : 573
+pwrqnt              =  8.884337e+00 from=  4.000000e-03 to=  5.000000e-03
+pwrqpt              =  1.516009e+00 from=  4.000000e-03 to=  5.000000e-03
+Doing analysis at TEMP = 30.000000 and TNOM = 27.000000
+
+Warning: vi: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+xpsu.1001                              20.0649
+xpsu.1002                               19.203
+xpsu.1003                           0.00299452
+xpsu.2001                             -20.0649
+xpsu.2002                              -19.203
+xpsu.2003                          -0.00299487
+xpsu.1004                              20.0648
+xpsu.2004                             -20.0648
+xpsu.1005                              20.0648
+xpsu.2005                             -20.0648
+vcc                                    20.0648
+vee                                   -20.0648
+in                                           0
+out                                          0
+spkplus                                      0
+outn                                         0
+xamp.q5c                              -7.09374
+xamp.qnb                              -7.33815
+xamp.qne                              -7.52705
+xamp.q7e                              -8.11229
+xamp.qpb                              -7.77079
+xamp.qpe                              -7.52705
+xamp.q5b                               18.2982
+xamp.q5e                                19.035
+xamp.q6b                              -7.83199
+xamp.q7b                              -8.85173
+xamp.q8c                              -1.69055
+xamp.q8b                              -18.8017
+xamp.q8e                              -19.4581
+xamp.noden                            -7.52705
+xamp.nodep                            -7.52705
+xamp.pwrout                           -7.52705
+l.xpsu.lsourcevee#branch            -0.0049328
+l.xpsu.lsourcevcc#branch            0.00528306
+v.xamp.vicp#branch                 1.95382e-09
+v.xamp.vicn#branch                 1.95381e-09
+vlmeas#branch                                0
+vi#branch                                    0
+v.xpsu.vcurrentvee#branch           -0.0049328
+v.xpsu.vcurrentvcc#branch           0.00528306
+v.xpsu.vsourcevee#branch              -2.99487
+v.xpsu.vsourcevcc#branch               2.99452
+
+
+No. of Data Rows : 584
+pwrqnt              =  8.964412e+00 from=  4.000000e-03 to=  5.000000e-03
+pwrqpt              =  1.500964e+00 from=  4.000000e-03 to=  5.000000e-03
+Doing analysis at TEMP = 30.000000 and TNOM = 27.000000
+
+Warning: vi: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+xpsu.1001                              20.0649
+xpsu.1002                               19.203
+xpsu.1003                           0.00299452
+xpsu.2001                             -20.0649
+xpsu.2002                              -19.203
+xpsu.2003                          -0.00299487
+xpsu.1004                              20.0648
+xpsu.2004                             -20.0648
+xpsu.1005                              20.0648
+xpsu.2005                             -20.0648
+vcc                                    20.0648
+vee                                   -20.0648
+in                                           0
+out                                          0
+spkplus                                      0
+outn                                         0
+xamp.q5c                              -7.09374
+xamp.qnb                              -7.33815
+xamp.qne                              -7.52705
+xamp.q7e                              -8.11229
+xamp.qpb                              -7.77079
+xamp.qpe                              -7.52705
+xamp.q5b                               18.2982
+xamp.q5e                                19.035
+xamp.q6b                              -7.83199
+xamp.q7b                              -8.85173
+xamp.q8c                              -1.69055
+xamp.q8b                              -18.8017
+xamp.q8e                              -19.4581
+xamp.noden                            -7.52705
+xamp.nodep                            -7.52705
+xamp.pwrout                           -7.52705
+l.xpsu.lsourcevee#branch            -0.0049328
+l.xpsu.lsourcevcc#branch            0.00528306
+v.xamp.vicp#branch                 1.95382e-09
+v.xamp.vicn#branch                 1.95381e-09
+vlmeas#branch                                0
+vi#branch                                    0
+v.xpsu.vcurrentvee#branch           -0.0049328
+v.xpsu.vcurrentvcc#branch           0.00528306
+v.xpsu.vsourcevee#branch              -2.99487
+v.xpsu.vsourcevcc#branch               2.99452
+
+
+No. of Data Rows : 588
+pwrqnt              =  9.064313e+00 from=  4.000000e-03 to=  5.000000e-03
+pwrqpt              =  1.491616e+00 from=  4.000000e-03 to=  5.000000e-03
+Doing analysis at TEMP = 30.000000 and TNOM = 27.000000
+
+Warning: vi: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+xpsu.1001                              20.0649
+xpsu.1002                               19.203
+xpsu.1003                           0.00299452
+xpsu.2001                             -20.0649
+xpsu.2002                              -19.203
+xpsu.2003                          -0.00299487
+xpsu.1004                              20.0648
+xpsu.2004                             -20.0648
+xpsu.1005                              20.0648
+xpsu.2005                             -20.0648
+vcc                                    20.0648
+vee                                   -20.0648
+in                                           0
+out                                          0
+spkplus                                      0
+outn                                         0
+xamp.q5c                              -7.09374
+xamp.qnb                              -7.33815
+xamp.qne                              -7.52705
+xamp.q7e                              -8.11229
+xamp.qpb                              -7.77079
+xamp.qpe                              -7.52705
+xamp.q5b                               18.2982
+xamp.q5e                                19.035
+xamp.q6b                              -7.83199
+xamp.q7b                              -8.85173
+xamp.q8c                              -1.69055
+xamp.q8b                              -18.8017
+xamp.q8e                              -19.4581
+xamp.noden                            -7.52705
+xamp.nodep                            -7.52705
+xamp.pwrout                           -7.52705
+l.xpsu.lsourcevee#branch            -0.0049328
+l.xpsu.lsourcevcc#branch            0.00528306
+v.xamp.vicp#branch                 1.95382e-09
+v.xamp.vicn#branch                 1.95381e-09
+vlmeas#branch                                0
+vi#branch                                    0
+v.xpsu.vcurrentvee#branch           -0.0049328
+v.xpsu.vcurrentvcc#branch           0.00528306
+v.xpsu.vsourcevee#branch              -2.99487
+v.xpsu.vsourcevcc#branch               2.99452
+
+
+No. of Data Rows : 576
+pwrqnt              =  9.089690e+00 from=  4.000000e-03 to=  5.000000e-03
+pwrqpt              =  1.473182e+00 from=  4.000000e-03 to=  5.000000e-03
+Doing analysis at TEMP = 30.000000 and TNOM = 27.000000
+
+Warning: vi: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+xpsu.1001                              20.0649
+xpsu.1002                               19.203
+xpsu.1003                           0.00299452
+xpsu.2001                             -20.0649
+xpsu.2002                              -19.203
+xpsu.2003                          -0.00299487
+xpsu.1004                              20.0648
+xpsu.2004                             -20.0648
+xpsu.1005                              20.0648
+xpsu.2005                             -20.0648
+vcc                                    20.0648
+vee                                   -20.0648
+in                                           0
+out                                          0
+spkplus                                      0
+outn                                         0
+xamp.q5c                              -7.09374
+xamp.qnb                              -7.33815
+xamp.qne                              -7.52705
+xamp.q7e                              -8.11229
+xamp.qpb                              -7.77079
+xamp.qpe                              -7.52705
+xamp.q5b                               18.2982
+xamp.q5e                                19.035
+xamp.q6b                              -7.83199
+xamp.q7b                              -8.85173
+xamp.q8c                              -1.69055
+xamp.q8b                              -18.8017
+xamp.q8e                              -19.4581
+xamp.noden                            -7.52705
+xamp.nodep                            -7.52705
+xamp.pwrout                           -7.52705
+l.xpsu.lsourcevee#branch            -0.0049328
+l.xpsu.lsourcevcc#branch            0.00528306
+v.xamp.vicp#branch                 1.95382e-09
+v.xamp.vicn#branch                 1.95381e-09
+vlmeas#branch                                0
+vi#branch                                    0
+v.xpsu.vcurrentvee#branch           -0.0049328
+v.xpsu.vcurrentvcc#branch           0.00528306
+v.xpsu.vsourcevee#branch              -2.99487
+v.xpsu.vsourcevcc#branch               2.99452
+
+
+No. of Data Rows : 576
+pwrqnt              =  9.089690e+00 from=  4.000000e-03 to=  5.000000e-03
+pwrqpt              =  1.473182e+00 from=  4.000000e-03 to=  5.000000e-03
+tjqn = 147.439 and tjqp = 49.0335
+Doing analysis at TEMP = 147.439000 and TNOM = 27.000000
+
+Warning: vi: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+xpsu.1001                               19.932
+xpsu.1002                               19.203
+xpsu.1003                           0.00299338
+xpsu.2001                              -19.932
+xpsu.2002                              -19.203
+xpsu.2003                          -0.00299373
+xpsu.1004                              19.9319
+xpsu.2004                             -19.9319
+xpsu.1005                              19.9319
+xpsu.2005                             -19.9319
+vcc                                    19.9319
+vee                                   -19.9319
+in                                           0
+out                                          0
+spkplus                                      0
+outn                                         0
+xamp.q5c                              -8.74853
+xamp.qnb                              -8.87511
+xamp.qne                               -9.0355
+xamp.q7e                              -9.52951
+xamp.qpb                              -9.27877
+xamp.qpe                              -9.03551
+xamp.q5b                               18.1662
+xamp.q5e                               18.7281
+xamp.q6b                              -9.31468
+xamp.q7b                              -10.0959
+xamp.q8c                               -8.8356
+xamp.q8b                              -18.6728
+xamp.q8e                              -19.1311
+xamp.noden                             -9.0355
+xamp.nodep                            -9.03551
+xamp.pwrout                           -9.03551
+l.xpsu.lsourcevee#branch           -0.00606862
+l.xpsu.lsourcevcc#branch            0.00641635
+v.xamp.vicp#branch                 3.64411e-05
+v.xamp.vicn#branch                 3.64411e-05
+vlmeas#branch                                0
+vi#branch                                    0
+v.xpsu.vcurrentvee#branch          -0.00606862
+v.xpsu.vcurrentvcc#branch           0.00641635
+v.xpsu.vsourcevee#branch              -2.99373
+v.xpsu.vsourcevcc#branch               2.99338
+
+
+No. of Data Rows : 556
+pwrqnt              =  1.048137e+01 from=  4.000000e-03 to=  5.000000e-03
+pwrqpt              =  1.167347e+00 from=  4.000000e-03 to=  5.000000e-03
+tjqn = 165.42 and tjqp = 45.0822
+Doing analysis at TEMP = 165.420000 and TNOM = 27.000000
+
+Warning: vi: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+xpsu.1001                              19.9108
+xpsu.1002                               19.203
+xpsu.1003                           0.00299315
+xpsu.2001                             -19.9108
+xpsu.2002                              -19.203
+xpsu.2003                          -0.00299349
+xpsu.1004                              19.9107
+xpsu.2004                             -19.9107
+xpsu.1005                              19.9107
+xpsu.2005                             -19.9107
+vcc                                    19.9107
+vee                                   -19.9107
+in                                           0
+out                                          0
+spkplus                                      0
+outn                                         0
+xamp.q5c                              -8.93478
+xamp.qnb                              -9.04223
+xamp.qne                              -9.19833
+xamp.q7e                              -9.67871
+xamp.qpb                              -9.44099
+xamp.qpe                              -9.19834
+xamp.q5b                               18.1458
+xamp.q5e                               18.6803
+xamp.q6b                              -9.47401
+xamp.q7b                               -10.218
+xamp.q8c                              -9.93174
+xamp.q8b                              -18.6526
+xamp.q8e                              -19.0802
+xamp.noden                            -9.19833
+xamp.nodep                            -9.19834
+xamp.pwrout                           -9.19833
+l.xpsu.lsourcevee#branch           -0.00630822
+l.xpsu.lsourcevcc#branch            0.00665556
+v.xamp.vicp#branch                 0.000107832
+v.xamp.vicn#branch                 0.000107832
+vlmeas#branch                                0
+vi#branch                                    0
+v.xpsu.vcurrentvee#branch          -0.00630822
+v.xpsu.vcurrentvcc#branch           0.00665556
+v.xpsu.vsourcevee#branch              -2.99349
+v.xpsu.vsourcevcc#branch               2.99315
+
+
+No. of Data Rows : 555
+pwrqnt              =  1.072258e+01 from=  4.000000e-03 to=  5.000000e-03
+pwrqpt              =  1.316734e+00 from=  4.000000e-03 to=  5.000000e-03
+tjqn = 168.536 and tjqp = 47.0122
+Doing analysis at TEMP = 168.536000 and TNOM = 27.000000
+
+Warning: vi: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+xpsu.1001                              19.9071
+xpsu.1002                               19.203
+xpsu.1003                            0.0029931
+xpsu.2001                             -19.9071
+xpsu.2002                              -19.203
+xpsu.2003                          -0.00299344
+xpsu.1004                               19.907
+xpsu.2004                              -19.907
+xpsu.1005                               19.907
+xpsu.2005                              -19.907
+vcc                                     19.907
+vee                                    -19.907
+in                                           0
+out                                          0
+spkplus                                      0
+outn                                         0
+xamp.q5c                              -8.96586
+xamp.qnb                              -9.06993
+xamp.qne                              -9.22528
+xamp.q7e                              -9.70335
+xamp.qpb                              -9.46783
+xamp.qpe                              -9.22529
+xamp.q5b                               18.1423
+xamp.q5e                                18.672
+xamp.q6b                              -9.50041
+xamp.q7b                              -10.2379
+xamp.q8c                              -10.1218
+xamp.q8b                              -18.6491
+xamp.q8e                              -19.0713
+xamp.noden                            -9.22528
+xamp.nodep                            -9.22529
+xamp.pwrout                           -9.22529
+l.xpsu.lsourcevee#branch           -0.00635857
+l.xpsu.lsourcevcc#branch            0.00670584
+v.xamp.vicp#branch                 0.000129021
+v.xamp.vicn#branch                 0.000129021
+vlmeas#branch                                0
+vi#branch                                    0
+v.xpsu.vcurrentvee#branch          -0.00635857
+v.xpsu.vcurrentvcc#branch           0.00670584
+v.xpsu.vsourcevee#branch              -2.99344
+v.xpsu.vsourcevcc#branch                2.9931
+
+
+No. of Data Rows : 556
+pwrqnt              =  1.073317e+01 from=  4.000000e-03 to=  5.000000e-03
+pwrqpt              =  1.333328e+00 from=  4.000000e-03 to=  5.000000e-03
+tjqn = 168.673 and tjqp = 47.2266
+Doing analysis at TEMP = 168.673000 and TNOM = 27.000000
+
+Warning: vi: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+xpsu.1001                               19.907
+xpsu.1002                               19.203
+xpsu.1003                           0.00299309
+xpsu.2001                              -19.907
+xpsu.2002                              -19.203
+xpsu.2003                          -0.00299344
+xpsu.1004                              19.9068
+xpsu.2004                             -19.9069
+xpsu.1005                              19.9068
+xpsu.2005                             -19.9069
+vcc                                    19.9068
+vee                                   -19.9069
+in                                           0
+out                                          0
+spkplus                                      0
+outn                                         0
+xamp.q5c                              -8.96722
+xamp.qnb                              -9.07114
+xamp.qne                              -9.22646
+xamp.q7e                              -9.70442
+xamp.qpb                                -9.469
+xamp.qpe                              -9.22647
+xamp.q5b                               18.1421
+xamp.q5e                               18.6716
+xamp.q6b                              -9.50157
+xamp.q7b                              -10.2388
+xamp.q8c                              -10.1302
+xamp.q8b                              -18.6489
+xamp.q8e                              -19.0709
+xamp.noden                            -9.22646
+xamp.nodep                            -9.22647
+xamp.pwrout                           -9.22646
+l.xpsu.lsourcevee#branch           -0.00636086
+l.xpsu.lsourcevcc#branch            0.00670813
+v.xamp.vicp#branch                 0.000130036
+v.xamp.vicn#branch                 0.000130036
+vlmeas#branch                                0
+vi#branch                                    0
+v.xpsu.vcurrentvee#branch          -0.00636086
+v.xpsu.vcurrentvcc#branch           0.00670813
+v.xpsu.vsourcevee#branch              -2.99344
+v.xpsu.vsourcevcc#branch               2.99309
+
+
+No. of Data Rows : 555
+pwrqnt              =  1.075285e+01 from=  4.000000e-03 to=  5.000000e-03
+pwrqpt              =  1.339051e+00 from=  4.000000e-03 to=  5.000000e-03
+tjqn = 168.927 and tjqp = 47.3005
+Doing analysis at TEMP = 168.927000 and TNOM = 27.000000
+
+Warning: vi: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+xpsu.1001                              19.9067
+xpsu.1002                               19.203
+xpsu.1003                           0.00299309
+xpsu.2001                             -19.9067
+xpsu.2002                              -19.203
+xpsu.2003                          -0.00299344
+xpsu.1004                              19.9065
+xpsu.2004                             -19.9066
+xpsu.1005                              19.9065
+xpsu.2005                             -19.9066
+vcc                                    19.9065
+vee                                   -19.9066
+in                                           0
+out                                          0
+spkplus                                      0
+outn                                         0
+xamp.q5c                              -8.96974
+xamp.qnb                              -9.07339
+xamp.qne                              -9.22864
+xamp.q7e                              -9.70642
+xamp.qpb                              -9.47117
+xamp.qpe                              -9.22865
+xamp.q5b                               18.1418
+xamp.q5e                               18.6709
+xamp.q6b                               -9.5037
+xamp.q7b                              -10.2404
+xamp.q8c                              -10.1457
+xamp.q8b                              -18.6486
+xamp.q8e                              -19.0702
+xamp.noden                            -9.22864
+xamp.nodep                            -9.22865
+xamp.pwrout                           -9.22864
+l.xpsu.lsourcevee#branch           -0.00636514
+l.xpsu.lsourcevcc#branch             0.0067124
+v.xamp.vicp#branch                 0.000131936
+v.xamp.vicn#branch                 0.000131936
+vlmeas#branch                                0
+vi#branch                                    0
+v.xpsu.vcurrentvee#branch          -0.00636514
+v.xpsu.vcurrentvcc#branch            0.0067124
+v.xpsu.vsourcevee#branch              -2.99344
+v.xpsu.vsourcevcc#branch               2.99309
+
+
+No. of Data Rows : 560
+pwrqn               =  1.074836e+01 from=  4.000000e-03 to=  5.000000e-03
+pwrqp               =  1.337217e+00 from=  4.000000e-03 to=  5.000000e-03
+avev40              =  -3.666642e-02 from=  1.000000e-01 to=  1.250000e-01
+avei40              =  -4.582729e-03 from=  1.000000e-01 to=  1.250000e-01
+avev1k              =  7.931256e-01 from=  4.000000e-03 to=  5.000000e-03
+avei1k              =  9.912830e-02 from=  4.000000e-03 to=  5.000000e-03
+avev20k             =  6.819934e-01 from=  2.000000e-04 to=  2.500000e-04
+avei20k             =  8.523852e-02 from=  2.000000e-04 to=  2.500000e-04
+avev1k1mv           =  -3.457365e-10 from=  4.000000e-03 to=  5.000000e-03
+avei1k1mv           =  -4.321441e-11 from=  4.000000e-03 to=  5.000000e-03
+pwrvcc              =  1.172586e+01 from=  4.000000e-03 to=  5.000000e-03
+pwrvee              =  9.740501e+00 from=  4.000000e-03 to=  5.000000e-03
+pwrload40hz         =  1.078114e+01 from=  1.000000e-01 to=  1.250000e-01
+pwrload1khz         =  1.137126e+01 from=  4.000000e-03 to=  5.000000e-03
+pwrload20khz        =  9.697754e+00 from=  2.000000e-04 to=  2.500000e-04
+pwrload1khz1mv      =  2.821339e-16 from=  4.000000e-03 to=  5.000000e-03
+pwrloadredbias      =  2.753019e-02 from=  4.000000e-03 to=  5.000000e-03
+qnimax              =  3.307001e-06 at=  4.121280e-03
+qpimax              =  1.129744e-01 at=  4.165280e-03
+qnvcemax            =  3.694400e+01 at=  4.363069e-03
+qpvecmax            =  2.739002e+01 at=  4.753307e-03
+sbqn                =  1.991593e-03 at=  4.121280e-03
+sbqp                =  7.735163e+00 at=  4.165280e-03
+vimaxi              =  1.746551e-04 at=  4.714280e-03
+Fourier analysis for vspeaker1k:
+  No. Harmonics: 10, THD: 8.30046 %, Gridsize: 200, Interpolation Degree: 1
+
+Harmonic Frequency   Magnitude   Phase       Norm. Mag   Norm. Phase
+-------- ---------   ---------   -----       ---------   -----------
+ 0       0           0.792917    0           0           0          
+ 1       1000        13.3928     -179.99     1           0          
+ 2       2000        0.937077    -83.263     0.0699686   96.7306    
+ 3       3000        0.246571    174.44      0.0184107   354.434    
+ 4       4000        0.289434    74.2942     0.0216111   254.288    
+ 5       5000        0.418526    -2.818      0.0312501   177.176    
+ 6       6000        0.118365    -76.272     0.00883795  103.722    
+ 7       7000        0.134645    -3.9685     0.0100535   176.025    
+ 8       8000        0.0666807   -77.118     0.00497884  102.876    
+ 9       9000        0.0369696   7.02671     0.00276041  187.02     
+
+Fourier analysis for vspeaker1k1m:
+  No. Harmonics: 10, THD: 0.831727 %, Gridsize: 200, Interpolation Degree: 1
+
+Harmonic Frequency   Magnitude   Phase       Norm. Mag   Norm. Phase
+-------- ---------   ---------   -----       ---------   -----------
+ 0       0           -3.6324e-10 0           0           0          
+ 1       1000        6.71912e-08 -97.984     1           0          
+ 2       2000        3.17389e-10 87.9218     0.00472367  185.906    
+ 3       3000        4.59656e-10 4.3898      0.00684102  102.374    
+ 4       4000        7.60519e-12 -81.003     0.000113187 16.9809    
+ 5       5000        1.10814e-11 165.177     0.000164924 263.161    
+ 6       6000        2.40401e-12 146.705     3.57787e-05 244.689    
+ 7       7000        7.1569e-12  -20.678     0.000106516 77.3056    
+ 8       8000        7.09526e-12 165.663     0.000105598 263.647    
+ 9       9000        1.56379e-12 143.442     2.32737e-05 241.425    
+
+Fourier analysis for vspeaker40:
+  No. Harmonics: 10, THD: 8.57291 %, Gridsize: 200, Interpolation Degree: 1
+
+Harmonic Frequency   Magnitude   Phase       Norm. Mag   Norm. Phase
+-------- ---------   ---------   -----       ---------   -----------
+ 0       0           -0.037585   0           0           0          
+ 1       40          13.0828     -166.37     1           0          
+ 2       80          0.91717     -66.425     0.0701048   99.9448    
+ 3       120         0.293486    -175.89     0.0224329   -9.5202    
+ 4       160         0.363224    120.439     0.0277634   286.809    
+ 5       200         0.4086      52.9554     0.0312318   219.325    
+ 6       240         0.0496268   -62.181     0.00379328  104.189    
+ 7       280         0.147915    89.3853     0.011306    255.755    
+ 8       320         0.0440131   -70.148     0.00336419  96.2217    
+ 9       360         0.0737618   165.562     0.00563806  331.931    
+
+Fourier analysis for vspeaker20k:
+  No. Harmonics: 10, THD: 5.6434 %, Gridsize: 200, Interpolation Degree: 1
+
+Harmonic Frequency   Magnitude   Phase       Norm. Mag   Norm. Phase
+-------- ---------   ---------   -----       ---------   -----------
+ 0       0           0.681038    0           0           0          
+ 1       20000       12.3974     -167.08     1           0          
+ 2       40000       0.465166    -114.2      0.0375213   52.884     
+ 3       60000       0.225065    156.736     0.0181542   323.816    
+ 4       80000       0.278666    178.414     0.0224778   345.494    
+ 5       100000      0.307614    117.221     0.0248128   284.301    
+ 6       120000      0.146187    -22.027     0.0117917   145.053    
+ 7       140000      0.151951    -121.73     0.0122566   45.3492    
+ 8       160000      0.0344968   -54.987     0.00278258  112.093    
+ 9       180000      0.0672633   -80.858     0.0054256   86.2217    
+
+
+Power amplifier test results
+
++----------------------------+------+-----------------+-----------------------------+
+|Smoke test (Hard P/F): P/F. | .... | ..Hard limit... | .......Test result......... |
++----------------------------+------+-----------------+-----------------------------+
+|Safe Op. Area (@1kHz): PASS | NULL | BJTs within SOA | BJTs inside SOA
+|T(power npn).........: FAIL | NULL | Below 150 C.... | 168.869 C (burns out)
+|T(power pnp).........: PASS | NULL | Below 150 C.... | 47.2769 C
++----------------------------+------+-----------------+-----------------------------+
+|Test param. (scoring): P/F. | Mark | ...Benchmark... | .......Test result......... |
++----------------------------+------+-----------------+-----------------------------+
+|ii(max)..............: PASS | ..1. | Below 1 mA..... | 0.174655 mA
+|Psig(speaker) @ 40Hz : PASS | ..1. | Above 8 W...... | 10.7809 W
+|Psig(speaker) @ 1kHz : PASS | ..1. | Above 8 W...... | 11.2927 W
+|Psig(speaker) @ 20kHz: PASS | ..1. | Above 8 W...... | 9.63962 W
+|Psig(spk) (vi=1mV)...: FAIL | ..0. | Above 0.5E-5 W. | 2.82119E-16 W
+|Pwr efficiency @ 1kHz: PASS | ..1. | Above 45 %..... | 52.6064 %
+|THD @ 1kHz (full pwr): FAIL | ..0. | Below 4 %...... | 8.30047 %
+|THD @ 40Hz (full pwr): FAIL | ..0. | Below 4 %...... | 8.57293 %
+|THD @ 20kHz (fll pwr): FAIL | ..0. | Below 4 %...... | 5.6434 %
+|THD @ 1kHz (vi=1mV)..: FAIL | ..0. | Below 0.2 %.... | 0.831726 %
++============================+======+=================+=============================+
+|FINAL RESULT.........: FAIL | ..0 .|
++============================+======+
+
+Note: No ".plot", ".print", or ".fourier" lines; no simulations run

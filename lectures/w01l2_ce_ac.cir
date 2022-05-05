@@ -1,0 +1,29 @@
+* Electronics 315 - W01L2
+* BJT CE gain
+* Author: CJ Fourie
+* Last mod: 9 February 2022
+**************************************
+
+Vs      In     VBB      0     AC    1     0
+
+VCC     VCC    0        12
+VBB     VBB    0        1.2
+
+RB      in     qb       50k
+RC      VCC    out       6k
+
+*       Collector   Base     Emitter   Model
+Q1      out          qb       0         BJT1
+
+.model BJT1 NPN (BF=100 IS=1e-15)
+
+.control
+*  Do ac analysis at single frequency (10 kHz in this case)
+  AC    DEC    1   10k   10k
+*  Measure ac magnitudes at 10 kHz
+  meas ac vi_magn max v(in) AT=10k
+  meas ac vo_magn max v(out) AT=10k
+  let Av = mag(vo_magn/(vi_magn))
+  echo Voltage gain Av = "$&Av" V/V
+.endc
+.end

@@ -1,0 +1,85 @@
+* Electronics 315 - SPICE example for Week 6 Lecture 1
+*---------------------------------------
+* Description: Frequency response of CE amplifier
+*
+* Author: Coenrad Fourie
+* Last mod: 7 April 2022
+*=======================================
+
+vi   in   0   0   ac  1   0
+Vcc  vcc  0   10
+
+Rsi  in   1   500
+R1   vcc  qb  40k
+R2   qb   0   5k
+RE   qe   0   500
+RC   vcc  qc  5k
+RL   out  0   2.5k
+
+CC1  1    qb  12.1u
+CC2  qc   out 4.24u
+CE   qe   0   91u
+
+Q1   qc   qb  qe   BJT1
+
+.model BJT1 npn(bf=120,IS=1e-15)
+
+
+.control
+  let fcentre = 5k    $ Pick a midband frequency to assess gain
+  let fstart  = 1     $ Start frequency
+  let fstop   = 10k   $ Stop at frequency
+
+  AC    DEC    1000   $&fstart   $&fstop     $  Do ac analysis from fstart to fstop, 1000 points/decade
+
+  let vx=mag(v(out)/v(in))          $  Create new vector "vx" as magnitude of v(out)/v(in)  (voltage gain)
+
+  alter @CC1[c]=1  
+  alter @CC2[c]=1  
+  alter @CE[c]=90.9u     
+  AC    DEC    1000   $&fstart   $&fstop     $  Redo ac analysis
+  let vx=mag(v(out)/v(in))          $  Create new vector "vx" as magnitude of v(out)/v(in)  (voltage gain)
+
+  alter @CC1[c]=1  
+  alter @CC2[c]=4.24u  
+  alter @CE[c]=1     
+  AC    DEC    1000   $&fstart   $&fstop     $  Redo ac analysis
+  let vx=mag(v(out)/v(in))          $  Create new vector "vx" as magnitude of v(out)/v(in)  (voltage gain)
+
+  alter @CC1[c]=12.1u
+  alter @CC2[c]=1  
+  alter @CE[c]=1     
+  AC    DEC    1000   $&fstart   $&fstop     $  Redo ac analysis
+  let vx=mag(v(out)/v(in))          $  Create new vector "vx" as magnitude of v(out)/v(in)  (voltage gain)
+
+  let total=ac1.vx
+  let ce=ac2.vx
+  let cc2=ac3.vx
+  let cc1=ac4.vx
+
+  meas ac vi_magn find ac1.v(in) AT='fcentre'   $  Measure values at 'fcentre' Hz from first ac analysis
+  meas ac vo_magn find ac1.v(out) AT='fcentre'
+
+  let Av = (vo_magn/(vi_magn))   $  Magnitude of Voltage gain at 'fcentre' Hz
+  let Avdb=20*log10(mag($&Av))           $  Voltage gain in dB at 'fcentre' Hz
+  let Avtrig = (mag($&Av))/sqrt(2)       $  -3dB "trigger" value: Midband gain magnitude at 'fcentre' Hz, divided by sqrt(2)
+  
+  meas ac freqlow when ac1.vx=$&Avtrig rise=1  $  Find when vx rises above Avtrig for the first time: low cutoff freq
+  meas ac freqCE when ac2.vx=$&Avtrig rise=1  $  Find when vx rises above Avtrig for the first time: low cutoff freq
+  meas ac freqCC2 when ac3.vx=$&Avtrig rise=1  $  Find when vx rises above Avtrig for the first time: low cutoff freq
+  meas ac freqCC1 when ac4.vx=$&Avtrig rise=1  $  Find when vx rises above Avtrig for the first time: low cutoff freq
+
+
+  plot db(total) db(ce) db(cc1) db(cc2)              $ Plot results in dB
+
+  echo
+  echo Midband voltage gain Av = "$&Av" V/V
+  echo Midband voltage gain in dB: Avdb = "$&Avdb" dB
+  echo Low cutoff frequency fL = "$&freqlow" Hz
+  echo Low cutoff frequency due only to CE = "$&freqCE" Hz
+  echo Low cutoff frequency due only to CC1 = "$&freqCC1" Hz
+  echo Low cutoff frequency due only to CC2 = "$&freqCC2" Hz
+
+  echo
+.endc
+.end

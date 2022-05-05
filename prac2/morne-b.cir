@@ -1,0 +1,77 @@
+* Electronics 315
+* Morne Le Roux - 21622183
+* Practical 2
+
+vi in 0 0 ac 1 0
+Vcc vcc 0 12
+
+Rsi in 1 1200
+R1 vcc qb 122k
+R2 qb 0 158k
+RE qe 0 4600
+RC vcc qc 3.3k
+RL out 0 4.7k
+
+CC1 1 qb 493n
+CC2 qc out 265n
+CE qe 0 7.23u
+
+Q1 qc qb qe 2N2222
+
+.MODEL 2N2222 NPN (IS=2.20f NF=1.00 BF=240 VAF=114
++ IKF=0.293 ISE=2.73p NE=2.00 BR=4.00 NR=1.00
++ VAR=24.0 IKR=0.600 RE=0.194 RB=0.777 RC=77.7m
++ XTB=1.5 CJE=24.9p VJE=1.10 MJE=0.500 CJC=12.4p VJC=0.300
++ MJC=0.300 TF=371p TR=64.0n EG=1.12 )
+
+.control
+	let fcentre = 5k
+	let fstart = 1
+	let fstop = 100k
+AC DEC 1000 $&fstart $&fstop
+	let vx=mag(v(out)/v(in))
+	alter @CC1[c]=1
+	alter @CC2[c]=1
+	alter @CE[c]=7.23u
+AC DEC 1000 $&fstart $&fstop
+	let vx=mag(v(out)/v(in))
+	alter @CC1[c]=1
+	alter @CC2[c]=265n
+	alter @CE[c]=1
+AC DEC 1000 $&fstart $&fstop
+	let vx=mag(v(out)/v(in))
+	alter @CC1[c]=493n
+	alter @CC2[c]=1
+	alter @CE[c]=1
+AC DEC 1000 $&fstart $&fstop
+	meas ac vi_magn find ac1.v(in) AT='fcentre'
+	meas ac vo_magn find ac1.v(out) AT='fcentre'
+	
+	let vx=mag(v(out)/v(in))
+	
+	let total=ac1.vx
+	let ce=ac2.vx
+	let cc2=ac3.vx
+	let cc1=ac4.vx
+	
+	let Av = (vo_magn/(vi_magn))
+	let Avdb=20*log10(mag($&Av))
+	let Avtrig = (mag($&Av))/sqrt(2)
+	
+	meas ac freqlow when ac1.vx=$&Avtrig rise=1
+	meas ac freqCE when ac2.vx=$&Avtrig rise=1
+	meas ac freqCC2 when ac3.vx=$&Avtrig rise=1
+	meas ac freqCC1 when ac4.vx=$&Avtrig rise=1
+	
+	plot db(total) db(ce) db(cc1) db(cc2)
+
+	echo Midband voltage gain Av = "$&Av" V/V
+	echo Midband voltage gain in dB: Avdb = "$&Avdb" dB
+
+	echo Low cutoff frequency fL = "$&freqlow" Hz
+	echo Low cutoff frequency due only to CE = "$&freqCE" Hz
+	echo Low cutoff frequency due only to CC1 = "$&freqCC1" Hz
+	echo Low cutoff frequency due only to CC2 = "$&freqCC2" Hz
+	
+.endc
+.end

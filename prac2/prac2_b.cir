@@ -1,0 +1,81 @@
+* Electronics 315 - Practical 2 - Question b
+*---------------------------------------
+* Name: Daniel Moller
+* Student Number: 21593698
+*
+* Last mod: 15 April 2022
+*=======================================
+
+Vs  in  0   0   ac  1   0
+Vcc	vcc	0	12
+
+Cs	2	qb	493.09n
+Cc	qc	out	265.26n
+Ce	qe	0	7.1862u
+
+Rs 	in 	2 	1.2k
+R1 	vcc	qb	122.25k
+R2 	qb 	0 	157.98k
+Re  qe 	0	4594
+Rc 	vcc	qc	3.3k
+RL 	out 0 	4.7k
+
+Q1   qc   qb  qe   2N2222
+
+.MODEL 2N2222  NPN (IS=2.20f NF=1.00 BF=240 VAF=114
++ IKF=0.293 ISE=2.73p NE=2.00 BR=4.00 NR=1.00
++ VAR=24.0 IKR=0.600 RE=0.194 RB=0.777 RC=77.7m
++ XTB=1.5 CJE=24.9p VJE=1.10 MJE=0.500 CJC=12.4p VJC=0.300
++ MJC=0.300 TF=371p TR=64.0n EG=1.12 )
+
+.control
+	let fcentre = 5k
+	let fstart = 1
+	let fstop = 10MEG
+AC DEC 1000 $&fstart $&fstop
+	let vx=mag(v(out)/v(in))
+	alter @Cs[c]=1  
+	alter @Cc[c]=1  
+	alter @Ce[c]=7.1862u
+AC DEC 1000 $&fstart $&fstop
+	let vx=mag(v(out)/v(in))
+	alter @Cs[c]=1
+	alter @Cc[c]=265.26n
+	alter @Ce[c]=1
+AC DEC 1000 $&fstart $&fstop
+	let vx=mag(v(out)/v(in))
+	alter @Cs[c]=493.09n
+	alter @Cc[c]=1
+	alter @Ce[c]=1
+AC DEC 1000 $&fstart $&fstop
+	let vx=mag(v(out)/v(in))
+	
+	let total=ac1.vx
+	let ce=ac2.vx
+	let cc=ac3.vx
+	let cs=ac4.vx
+
+	meas ac vi_magn find ac1.v(in) AT='fcentre'
+	meas ac vo_magn find ac1.v(out) AT='fcentre'
+
+	let Av = (vo_magn/(vi_magn))
+	let Avdb=20*log10(mag($&Av))
+	let Avtrig = (mag($&Av))/sqrt(2)
+  
+	meas ac freqlow when ac1.vx=$&Avtrig rise=1
+	meas ac freqCe when ac2.vx=$&Avtrig rise=1
+	meas ac freqCc when ac3.vx=$&Avtrig rise=1
+	meas ac freqCs when ac4.vx=$&Avtrig rise=1
+
+	plot db(total) db(ce) db(cc) db(cs)
+
+	echo Midband voltage gain Av = "$&Av" V/V
+	echo Midband voltage gain in dB: Avdb = "$&Avdb" dB
+	echo Low cutoff frequency fL = "$&freqlow" Hz
+	echo Low cutoff frequency due only to Ce = "$&freqCe" Hz
+	echo Low cutoff frequency due only to Cc = "$&freqCc" Hz
+	echo Low cutoff frequency due only to Cs = "$&freqCs" Hz
+
+
+.endc
+.end
